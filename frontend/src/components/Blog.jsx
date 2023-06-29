@@ -20,13 +20,6 @@ const Blog = () => {
             </div>
         </div>
     )
-    return (
-        <div style={{ textAlign: 'center' }}>
-            <ReactMarkdown>
-                {markdown}
-            </ReactMarkdown>
-        </div>
-    )
 }
 
 export default Blog

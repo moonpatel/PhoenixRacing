@@ -1,0 +1,102 @@
+.footer {
+    background-color: #333333;
+    padding: 35px 25px;
+    display: flex;
+    justify-content: space-evenly;
+    position: static;
+    bottom: 0;
+    left: 0;
+    margin-top: 100px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 20vh;
+    margin-right: 10px;
+}
+
+.footer-logo h1 {
+    font-family: Racing Sans One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0072bb;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h2 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0072bb;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-info p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    color: #6e6e73;
+}
+.contact-info img {
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+}
+.address div {
+    display: flex;
+}
+.address h1 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0072bb;
+}
+
+.address p {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6e6e73;
+    margin: 0;
+}
+.address img {
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
