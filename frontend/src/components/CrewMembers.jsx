@@ -8,7 +8,6 @@ export default function CrewMembers() {
   return (
     <div className='crew-members'>
       <div className='crew-hero'>
-        <Navbar />
         <p>Meet the backbone of our racing team - a group of hardworking and dedicated individuals who fuel our drive for success. With unwavering passion and a shared commitment to excellence, they work tirelessly behind the scenes, ensuring our race machines are primed to perform at their peak. Together, they form a tightly-knit unit, seamlessly collaborating and pushing boundaries to push us towards the checkered flag.</p>
       </div>
       <div className='team'>
@@ -109,7 +108,6 @@ export default function CrewMembers() {
         </div>
         <div className='black-line' />
       </div>
-      <Footer />
     </div>
   );
 }
