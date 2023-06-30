@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import './App.css'
 import Blog from './components/Blog'
 import BlogsPage from './components/BlogsPage'
@@ -7,12 +7,14 @@ import Sponsors from './components/Sponsors'
 import Layout from './components/Layout'
 import NotFound from './components/NotFound'
 import { BlogProvider } from './context/blog-context'
+import Team from './components/Team'
 
 const router = createBrowserRouter([
   {
     path: '/', element: <Layout />, children: [
       { path: 'home', element: <div>Home</div> },
       { path: 'sponsors', element: <Sponsors /> },
+      { path: 'team', element: <Team /> },
       {
         path: 'blogs', element: <BlogsPage />
       },
