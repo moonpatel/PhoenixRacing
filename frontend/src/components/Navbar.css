@@ -1,26 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Raleway&display=swap');
 
 .navbar {
-    position: static;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
     background-color: transparent;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #fff;
-    margin-bottom: 20px;
+    padding: 0 30px;
 }
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
 }
 
 .navbar-logo {
-    color: #0072bb;
+    color: #0072BB;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -29,6 +22,7 @@
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0em;
+
 }
 
 .navbar-logo img {
@@ -54,7 +48,7 @@
 }
 
 .navbar-item {
-    color: #0072bb;
+    color: #0072BB;
     text-decoration: none;
     padding: 10px;
     margin: 10px;
@@ -64,6 +58,7 @@
     line-height: 23px;
     letter-spacing: 0em;
     text-align: center;
+
 }
 
 .navbar-toggle {
@@ -85,7 +80,7 @@
 
 .navbar-icon::before,
 .navbar-icon::after {
-    content: "";
+    content: '';
     width: 30px;
     height: 3px;
     background-color: #fff;
