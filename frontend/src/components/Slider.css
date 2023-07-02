@@ -2,8 +2,7 @@
     width: 80vw;
     margin: 0 auto;
     overflow: hidden;
-    margin-top: 20vh;
-    background-color: #f6f5f7;
+    margin-top:calc((1rem + 5vw) * 0.3);
 }
 
 .logos-slider {
@@ -15,18 +14,19 @@
 
 .logos-slide {
     display: flex;
+    column-gap: 2rem;
 }
 
 .logos-slide img {
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 @keyframes slide {
     0% {
         transform: translateX(0);
     }
-
     100% {
         transform: translateX(-100%);
     }

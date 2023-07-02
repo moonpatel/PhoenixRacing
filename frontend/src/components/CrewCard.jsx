@@ -1,13 +1,21 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import './CrewCard.css';
 
 export default function CrewCard() {
   return (
     <div className='crew-card'>
-      <img className='profile' src='crew-image.png' alt='Crew Profile' />
-      <a className='name' href='destination_url'>Name</a>
-      <a className='position' href='destination_url'>Position</a>
-      <img className='linked-in' src='linkedin.png' alt='LinkedIn' />
+      <div className="img-content">
+      <img className='profile' src='hero.jpg' alt='Crew Profile' />
+      </div>
+      <div className="txt-content">
+      <div className='name' href='destination_url'>Name</div>
+      <div className='position' href='destination_url'>Position</div>
+      <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
+                  <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='lg'/>
+      </a>
+      </div>
     </div>
   );
 }
