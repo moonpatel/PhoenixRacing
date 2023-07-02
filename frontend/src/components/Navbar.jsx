@@ -72,7 +72,7 @@ export default function Navbar() {
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink href='#'>
-              <div className={`text ${showNav ? 'no-padding' : ''}`}>Blogs</div>
+              <div className={`text ${showNav ? 'no-padding' : ''}`}>News</div>
               </MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>

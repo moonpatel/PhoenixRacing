@@ -11,19 +11,32 @@ export default function Footer() {
       <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-4'>
-            <MDBCol md='3' lg='4' xl='3' className='mt-4 text-center mx-auto mb-4'>
+            <MDBCol md='3' lg='3' xl='3' className='mt-4 text-center ms-0 mb-4 me-0'>
               <div className="logo-section">
               <img src='./logo.png' alt='logo' className='w-50'></img>
               <h6 className='fw-bold mb-4'>
                 Phoenix Racing
               </h6>
               <p>
-                Tagline
+                Precision Crafted Performance
               </p>
               </div>
             </MDBCol>
 
-            <MDBCol md='2' lg='2' xl='2' className='mt-4 mx-auto mb-4 text-md-center'>
+            <MDBCol md='1' lg='1' xl='1' className='mt-4 ms-0 mb-4 me-3'>
+              <div className="footer-section">
+              <h5 className='text-uppercase fw-bold mb-4 text-md-left'>Links</h5>
+              <p className='d-flex flex-column justify-content-center align-items-md-start'>
+                <a href="#" className='pb-1'>Home</a>
+                <a href="#" className='pb-1'>Cars</a>
+                <a href="#" className='pb-1'>Team</a>
+                <a href="#" className='pb-1'>Alumni</a>
+                <a href="#" className='pb-1'>Sponsors</a>
+                <a href="#" className='pb-1'>News</a>
+              </p>
+              </div>
+            </MDBCol>
+            <MDBCol md='2' lg='2' xl='2' className='mt-4 mx-auto mb-4'>
               <div className="footer-section">
               <h5 className='text-uppercase fw-bold mb-4'>Contact</h5>
               <p className='d-flex justify-content-center justify-content-md-start align-items-center'>
@@ -34,18 +47,18 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faPhone} className='me-3' size='lg'/>
                 <a href={`tel:${phoneNumber}`}>Call Us</a>
               </p>
-              <p className='d-flex justify-content-center align-items-center mt-5'>
+              <p className='d-flex justify-content-center align-items-center mt-5 flex-wrap'>
                 <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
-                  <FontAwesomeIcon icon={faFacebookF} className='me-4' size='xl'/>
+                  <FontAwesomeIcon icon={faFacebookF} className='me-4 p-1' size='xl'/>
                 </a>
                 <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
-                  <FontAwesomeIcon icon={faTwitter} className='me-4' size='xl'/>
+                  <FontAwesomeIcon icon={faTwitter} className='me-4 p-1' size='xl'/>
                 </a>
                 <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
-                  <FontAwesomeIcon icon={faInstagram} className='me-4' size='xl' />
+                  <FontAwesomeIcon icon={faInstagram} className='me-4 p-1' size='xl' />
                 </a>
                 <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
-                  <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl'/>
+                  <FontAwesomeIcon icon={faLinkedinIn} className='me-4 p-1' size='xl'/>
                 </a>
               </p>
               </div>

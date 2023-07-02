@@ -2,9 +2,11 @@ import './Home.css';
 import Hero from './Hero';
 import { Carousel } from "./carousel/carousel";
 import InfoSection from './InfoSection';
+import { Parallax,Background } from 'react-parallax';
 
 export default function Home() {
   const heading = 'About Us';
+  const heading2 = 'About Svnit'
   const description1='lorem ipsum  elit. Pellentesque in dapibus turpis. Pellentesque eget sollicitudin quam, sed dictum lorem. Sed finibus elit a lacus rhoncus, nec placerat erat scelerisque. Donec vestibulum risus eget mi rhoncus, a euismod mi porta. Phasellus id felis libero. Vivamus dignissim et massa a interdum. Donec auctor, nisl nec aliquam ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec nisl. Nulla f';
   const description2='lorem ipsum  elit. Pellentesque in dapibus turpis. Pellentesque eget sollicitudin quam, sed dictum lorem. Sed finibus elit a lacus rhoncus, nec placerat erat scelerisque. Donec vestibulum risus eget mi rhoncus, a euismod mi porta. Phasellus id felis libero. Vivamus dignissim et massa a interdum. Donec auctor, nisl nec aliquam ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec nisl. Nulla f';
   let slides = [
@@ -29,10 +31,16 @@ export default function Home() {
   return (
     <div className="home">
       <Hero />
+      <Parallax strength={500}> 
+        <Background className="custom-bg">
+          <div style={{width:'100vw', height:'70vh',backgroundImage: "url('image6.jpeg')",backgroundSize: '100% 100%',textAlign: 'center', objectFit: 'cover'}}/>
+        </Background>
+        <div style={{height:'70vh', width:'100vw'}}/>    
+      </Parallax>
+      <InfoSection heading={heading} descr1={description1} descr2={description2}/>
       <div className="home-carousel-container">
         <Carousel slides={slides} autoplay={true} interval={4000} />
       </div>
-      <InfoSection heading={heading} descr1={description1} descr2={description2}/>
     </div>
   );
 }
