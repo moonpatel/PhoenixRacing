@@ -21,18 +21,18 @@
   
   .not-found-description {
     font-size: 18px;
-    color: #777;
+    color: #6e6e73;
     margin-bottom: 30px;
   }
   
   .not-found-link {
     font-size: 20px;
-    color: #0072BB;
+    color: var(--bluish);
     text-decoration: none;
     transition: color 0.3s ease;
   }
   
   .not-found-link:hover {
-    color: #004b87;
+    text-decoration: underline;
   }
   

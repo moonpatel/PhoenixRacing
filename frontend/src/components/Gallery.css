@@ -1,8 +1,11 @@
 .gallery {
+    margin-top: calc((1rem + 5vw) * 0.3);
+    width:80vw;
     display: flex;
     flex-wrap: wrap;
-    width: 80vw;
-    padding-left: 10vw;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 10vw; */
 }
 
 .gallery-item {
