@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import './BlogsPage.css'
 import { useNavigate } from 'react-router-dom';
 import { BlogContext } from '../context/blog-context'
+import UpEvents from './upEvents';
 
 // const title = 'Structure Your React Apps Like It`s 2030';
 // const coverImage = 'https://images.squarespace-cdn.com/content/v1/5e2a78aea2dc434ac475b5a4/1610938263323-J2HOO9EMR39UVIDLLTDD/M20-C+FS+Sydney.jpg?format=2500w';
@@ -48,7 +49,11 @@ const BlogsPage = () => {
 
   return (
     <div className="blogs-page-container">
-      <h1 className="blogs-page-title">Blog Posts</h1>
+      <div className="upcoming-events">
+        <UpEvents />
+      </div>
+      <div className="past-events">
+      <h1 className="blogs-page-title">Past Events</h1>
       <div className="blogs-list">
         {blogs && blogs.map(({ coverImage, id, title, content, author, date, time }) => (
           <div className="blog-item" onClick={() => navigate(`/blogs/${id}`)}>
@@ -65,6 +70,27 @@ const BlogsPage = () => {
             </div>
           </div>
         ))}
+      </div>
+      </div>
+      <div className="all-blogs">
+      <h1 className="blogs-page-title">Featured Posts</h1>
+      <div className="blogs-list">
+        {blogs && blogs.map(({ coverImage, id, title, content, author, date, time }) => (
+          <div className="blog-item" onClick={() => navigate(`/blogs/${id}`)}>
+            <img className="blog-item-cover-image" src={coverImage} alt="Blog Cover" />
+            <div className='blog-item-text'>
+              <h2 className="blog-item-title">{title.slice(0,50)}...</h2>
+              <p className="blog-item-excerpt">{content.slice(0, 130)}...</p>
+              <div className="blog-item-meta">
+                <div className="blog-item-info">
+                  <div className="blog-item-date"> {date}</div>
+                  <div className="blog-item-author">{author}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
       </div>
     </div>
   )

@@ -19,7 +19,9 @@
 .text {
     color: var(--bluish);
     font-family: 'Raleway',sans-serif;
-    padding: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: inline-block;
 }
 
 .text:hover {
@@ -28,4 +30,15 @@
 
 .text.no-padding {
     padding: 0;
+}
+
+.drop-text {
+    font-family: 'Raleway',sans-serif;
+    padding-left: 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.drop-text:hover{
+    text-decoration: none;
 }

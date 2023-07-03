@@ -1,8 +1,7 @@
 import "./InfoSection.css";
-import Stats from "./Stats";
 import Section from "./Animate";
 
-const InfoSection = ({ heading, descr1, descr2 }) => {   
+const InfoSection = ({ heading, descr1, descr2,embedLink }) => {   
     return (
         <div className="abt-info" id="go-to-abt">
             <div className="abt-wrapper">
@@ -16,18 +15,19 @@ const InfoSection = ({ heading, descr1, descr2 }) => {
             </div>
             </div>
             <div className="abt-right">
-            < iframe 
-            className='video-intro'
-            src="https://www.youtube.com/embed/2PnbGCbcRYU" 
-            title="YouTube video player" 
-            frameBorder="0" 
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen
-            loading="lazy"/>
-            </div>
-            </div>
-            <div className="stat-section">
-                <Section><Stats /></Section>
+            <iframe
+  className="embed-item"
+ src={embedLink} 
+ width="100%" height="100%"
+ allowfullscreen
+ webkitallowfullscreen
+ frameborder="0"
+ referrerpolicy="no-referrer-when-downgrade"
+  title="player"
+  allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  loading="lazy"
+></iframe>
+</div>
             </div>
         </div>
     )

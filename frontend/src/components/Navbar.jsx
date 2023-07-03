@@ -16,6 +16,7 @@ import {
   MDBDropdownMenu,
   MDBDropdownItem,
   MDBBtn,
+  MDBBadge,
 } from 'mdb-react-ui-kit';
 
 
@@ -55,8 +56,8 @@ export default function Navbar() {
                     <span className={`text ${showNav ? 'extra-padding' : ''}`} id="nav-team">Team</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link className='drop-text'>2021</MDBDropdownItem>
-                  <MDBDropdownItem link className='drop-text'>2020</MDBDropdownItem>
+                  <MDBDropdownItem link><div className="drop-text">2023</div></MDBDropdownItem>
+                  <MDBDropdownItem link><div className="drop-text">2022</div></MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
@@ -71,8 +72,13 @@ export default function Navbar() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='#'>
+              <MDBNavbarLink href='#' className='position-relative d-inline-block'>
               <div className={`text ${showNav ? 'no-padding' : ''}`}>News</div>
+              <span>
+              <MDBBadge color='danger' notification pill className='position-absolute translate-middle start-80 top-3 d-md-none d-lg-inline-block'>
+          New<span class="visually-hidden">New alerts</span>
+        </MDBBadge>
+        </span>
               </MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>

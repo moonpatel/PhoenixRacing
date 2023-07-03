@@ -16,3 +16,10 @@
   /* background-color: var(--white); */
 }
 
+.stat-section {
+    margin-left:calc((1rem + 5vw));
+    margin-right: calc((1rem + 5vw));
+    font-family: 'Raleway',sans-serif;
+}
+
+
