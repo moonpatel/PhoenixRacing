@@ -5,10 +5,16 @@ import Gallery from './Gallery'
 // import SlideRight from './SlideRight';
 import Slider from './Slider';
 import Connect from './connect';
+import { Helmet } from 'react-helmet';
 
 const  Sponsors = () => {
     return (
         <div className='sponsor'>
+            <Helmet>
+                <title>Phoenix Racing | Sponsors</title>
+                <meta name="description" content="Discover the sponsors and partners supporting Phoenix Racing, the Formula SAE racing team from NIT Surat. Learn about our collaborations and how we work together to achieve excellence in motorsport engineering." />
+                <meta name="keywords" content="Phoenix Racing, NIT Surat, SVNIT, Formula SAE racing team, sponsors, partners, collaborations, motorsport engineering" />
+            </Helmet>
             <div className='hero'>
                 <div className="hero-image">
                 <h1>Why Sponsor Us?</h1>
