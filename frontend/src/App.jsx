@@ -12,6 +12,9 @@ import { BlogProvider } from './context/blog-context'
 import CrewMembers from './components/CrewMembers'
 import Cars from './components/Cars'
 
+
+
+
 const router = createBrowserRouter([
   {
     path: '/', element: <Layout />, 

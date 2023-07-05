@@ -4,7 +4,7 @@ import CrewCard from './CrewCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 
-export default function CrewMembers() {
+const  CrewMembers = () =>{
   return (
     <div className='crew-members'>
       <div className="crew-hero">
@@ -120,3 +120,5 @@ export default function CrewMembers() {
     </div>
   );
 }
+
+export default CrewMembers;

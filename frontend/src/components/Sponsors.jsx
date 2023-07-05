@@ -6,7 +6,7 @@ import Gallery from './Gallery'
 import Slider from './Slider';
 import Connect from './connect';
 
-export default function Sponsors() {
+const  Sponsors = () => {
     return (
         <div className='sponsor'>
             <div className='hero'>
@@ -30,3 +30,5 @@ export default function Sponsors() {
         </div>
     )
 }
+
+export default Sponsors;

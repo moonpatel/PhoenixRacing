@@ -12,7 +12,6 @@ import {
   wrap
 } from "framer-motion";
 import { useEffect,useState } from "react";
-import InfoSection from "./InfoSection";
 
 const scrollToSection = () => {
   const targetSection = document.getElementById('go-to-abt');

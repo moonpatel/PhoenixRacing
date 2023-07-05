@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import './CrewCard.css';
 
-export default function CrewCard() {
+const CrewCard = () =>{
   return (
     <div className='crew-card'>
       <div className="img-content">
@@ -19,3 +19,5 @@ export default function CrewCard() {
     </div>
   );
 }
+
+export default CrewCard;

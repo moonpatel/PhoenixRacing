@@ -48,22 +48,26 @@
 
 .abt-right{
     width: 50%;
-    align-self: center;
-    /* border: 2px solid red; */
     display: flex;
+    justify-content: flex-end;
+    align-self: center;
     align-items: center;
-    justify-content: center;
+    height: 100%;
+    /* border: 2px solid red; */
     /* border: 2px solid var(--bluish); */
 }
 
+
 .embed-item {
-    width:50vw;
-    height: calc(0.5625 * 50vw);;
-    border: none;
+    width:40vw;
+    height: calc(0.5625 * 40vw);;
+    border: 0;
     margin: 0;
-    /* display: block; */
-    outline: none;
+    outline: 0;
 }
+
+
+
 
 .sv-logo{
     width:70%;
@@ -89,8 +93,9 @@
     }
     .embed-item {
         width:80vw;
-        height: calc(0.5625 * 80vw);;
+        height: calc(0.5625 * 80vw);
         border: none;
+        outline: none;
     }
     .sv-logo{
         width:40%;

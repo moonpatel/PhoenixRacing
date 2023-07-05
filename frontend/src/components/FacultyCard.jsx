@@ -1,6 +1,6 @@
 import './CrewCard.css';
 
-export default function CrewCard({name,position,mail}) {
+const CrewCard = ({name,position,mail}) => {
   return (
     <div className='crew-card'>
       <div className="img-content">
@@ -16,3 +16,4 @@ export default function CrewCard({name,position,mail}) {
     </div>
   );
 }
+ export default CrewCard;

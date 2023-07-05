@@ -15,7 +15,7 @@ const AbtSv = ({ heading, descr1, descr2,embedLink }) => {
             </div>
             </div>
             <div className="abt-right">
-                <img src={embedLink} alt="svnit-logo" className="sv-logo"/>
+                <Section><img src={embedLink} alt="svnit-logo" className="sv-logo"/></Section>
             </div>
             </div>
         </div>

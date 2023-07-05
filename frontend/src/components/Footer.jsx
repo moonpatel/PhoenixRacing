@@ -27,12 +27,12 @@ export default function Footer() {
               <div className="footer-section">
               <h5 className='text-uppercase fw-bold mb-4 text-md-left'>Links</h5>
               <p className='d-flex flex-column justify-content-center align-items-md-start'>
-                <a href="#" className='pb-1'>Home</a>
-                <a href="#" className='pb-1'>Cars</a>
-                <a href="#" className='pb-1'>Team</a>
-                <a href="#" className='pb-1'>Alumni</a>
-                <a href="#" className='pb-1'>Sponsors</a>
-                <a href="#" className='pb-1'>News</a>
+                <a href="/home" className='pb-1'>Home</a>
+                <a href="/cars" className='pb-1'>Cars</a>
+                <a href="/team" className='pb-1'>Team</a>
+                <a href="/alumni" className='pb-1'>Alumni</a>
+                <a href="/sponsors" className='pb-1'>Sponsors</a>
+                <a href="/news" className='pb-1'>News</a>
               </p>
               </div>
             </MDBCol>
