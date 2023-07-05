@@ -2,9 +2,17 @@ import './Home.css';
 import Hero from './Hero';
 import { Carousel } from "./carousel/carousel";
 import InfoSection from './InfoSection';
+import Stats from "./Stats";
+import Section from "./Animate";
+import MakeParallax from './parallax';
+import AbtSv from './AbtSv';
+import Faculty from './Faculty';
+import Testimonials from './testimonials';
 
 export default function Home() {
+  const imgUrl = './studio.png';
   const heading = 'About Us';
+  const heading2 = 'About Svnit';
   const description1='lorem ipsum  elit. Pellentesque in dapibus turpis. Pellentesque eget sollicitudin quam, sed dictum lorem. Sed finibus elit a lacus rhoncus, nec placerat erat scelerisque. Donec vestibulum risus eget mi rhoncus, a euismod mi porta. Phasellus id felis libero. Vivamus dignissim et massa a interdum. Donec auctor, nisl nec aliquam ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec nisl. Nulla f';
   const description2='lorem ipsum  elit. Pellentesque in dapibus turpis. Pellentesque eget sollicitudin quam, sed dictum lorem. Sed finibus elit a lacus rhoncus, nec placerat erat scelerisque. Donec vestibulum risus eget mi rhoncus, a euismod mi porta. Phasellus id felis libero. Vivamus dignissim et massa a interdum. Donec auctor, nisl nec aliquam ultricies, nunc nisl ultricies nunc, nec aliquam nisl nisl nec nisl. Nulla f';
   let slides = [
@@ -29,10 +37,18 @@ export default function Home() {
   return (
     <div className="home">
       <Hero />
+      <MakeParallax imageUrl={imgUrl} />
+      <InfoSection heading={heading} descr1={description1} descr2={description2} embedLink='./intro_vid_bl.mp4'/>
+      <div className="stat-section">
+                <Section><Stats /></Section>
+      </div>
       <div className="home-carousel-container">
         <Carousel slides={slides} autoplay={true} interval={4000} />
       </div>
-      <InfoSection heading={heading} descr1={description1} descr2={description2}/>
+      <AbtSv heading={heading2} descr1={description1} descr2={description2} embedLink='./image3.jpg'/>
+      <Testimonials/>
+      <Faculty/>
+      
     </div>
   );
 }

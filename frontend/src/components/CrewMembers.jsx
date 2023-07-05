@@ -4,13 +4,15 @@ import CrewCard from './CrewCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
 
-export default function CrewMembers() {
+const  CrewMembers = () =>{
   return (
     <div className='crew-members'>
       <div className="crew-hero">
       <div className='crew-hero-image'>
-        <p>Meet the backbone of our racing team - a group of hardworking and dedicated individuals who fuel our drive for success. With unwavering passion and a shared commitment to excellence, they work tirelessly behind the scenes, ensuring our race machines are primed to perform at their peak. Together, they form a tightly-knit unit, seamlessly collaborating and pushing boundaries to push us towards the checkered flag.</p>
       </div>
+      </div>
+      <div className="crew-text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae doloremque fuga! Non cumque odit nemo tempore sint autem distinctio, explicabo cum vitae dolores quia quod dolor excepturi sed sunt!</p>
       </div>
       <div className='team'>
         <h1 className='team-heading'>Team</h1>
@@ -118,3 +120,5 @@ export default function CrewMembers() {
     </div>
   );
 }
+
+export default CrewMembers;

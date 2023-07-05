@@ -2,7 +2,7 @@ import React from "react";
 import './Cars.css';
 import CarouselComponent from "./CarsCarousel";
 import InfoWrapper from "./infowrapper";
-function App()
+function Cars()
 {
     return (
         <div className="cars-page">
@@ -11,4 +11,4 @@ function App()
         </div>
     );
 }
-export default App;
+export default Cars;
