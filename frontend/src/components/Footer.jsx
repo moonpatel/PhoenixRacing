@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn,faFacebookF,faTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn,faFacebookF,faTwitter,faInstagram ,faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faLocationDot,faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import './Footer.css'
@@ -43,10 +43,10 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faEnvelope} className='me-3' size='lg'/>
                 <a href="mailto:example@example.com">Email Us</a>
               </p>
-              <p className='d-flex justify-content-center justify-content-md-start align-items-center'>
+              {/* <p className='d-flex justify-content-center justify-content-md-start align-items-center'>
                 <FontAwesomeIcon icon={faPhone} className='me-3' size='lg'/>
                 <a href={`tel:${phoneNumber}`}>Call Us</a>
-              </p>
+              </p> */}
               <p className='d-flex justify-content-center align-items-center mt-5 flex-wrap'>
                 <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
                   <FontAwesomeIcon icon={faFacebookF} className='me-4 p-1' size='xl'/>
@@ -59,6 +59,9 @@ export default function Footer() {
                 </a>
                 <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
                   <FontAwesomeIcon icon={faLinkedinIn} className='me-4 p-1' size='xl'/>
+                </a>
+                <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
+                  <FontAwesomeIcon icon={faYoutube} className='me-4 p-1' size='xl'/>
                 </a>
               </p>
               </div>

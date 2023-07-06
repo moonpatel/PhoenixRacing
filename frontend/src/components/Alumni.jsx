@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./card";
 import alumni from "./data";
-import Connect from "./connect";
 import "./alumni.css";
 
 function CreateEntry(alum) {
@@ -85,7 +84,6 @@ function Alumni() {
           </div>
         )}
       </div>
-      <Connect title="Alumni of Phoenix Racing ? " btnName="Connect with Us"/>
     </div>
   );
 }
