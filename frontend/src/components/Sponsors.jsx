@@ -33,6 +33,9 @@ const  Sponsors = () => {
             <div className="sponsor-btn">
                 <Connect title="Interested in sponsoring us?" btnName="Contact Us"/>
             </div>
+            <div className="brochure-btn">
+                <a href="">View Brochure</a>
+            </div>
         </div>
     )
 }
