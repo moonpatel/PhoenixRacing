@@ -8,6 +8,7 @@ import MakeParallax from './parallax';
 import AbtSv from './AbtSv';
 import Faculty from './Faculty';
 import Testimonials from './testimonials';
+import {Helmet} from 'react-helmet';
 
 export default function Home() {
   const imgUrl = './studio.png';
@@ -36,6 +37,11 @@ export default function Home() {
 
   return (
     <div className="home">
+            <Helmet>
+        <title>Phoenix Racing | Formula SAE Racing Team from NIT Surat</title>
+        <meta name="description" content="Phoenix Racing is the Formula SAE racing team from NIT Surat. We design, build, and compete with high-performance race cars in competitions. Discover our journey, achievements, and innovation." />
+        <meta name="keywords" content="Formula SAE racing team, Phoenix Racing, NIT Surat,SVNIT, Motorsport engineering, Race car design, Automotive innovation, Engineering competition" />
+      </Helmet>
       <Hero />
       <MakeParallax imageUrl={imgUrl} />
       <InfoSection heading={heading} descr1={description1} descr2={description2} embedLink='./intro_vid_bl.mp4'/>
