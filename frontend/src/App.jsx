@@ -17,14 +17,15 @@ import Cars from './components/Cars'
 
 const router = createBrowserRouter([
   {
-    path: '/', element: <Layout />, 
+    path: '/', element: <Layout />,
     children: [
+      { path: '', element: <Home /> },
       { path: 'home', element: <Home /> },
       { path: 'sponsors', element: <Sponsors /> },
       { path: 'alumni', element: <Alumni /> },
       { path: 'team', element: <CrewMembers /> },
       { path: 'cars', element: <Cars /> },
-      {path: 'blogs', element: <BlogsPage />},
+      { path: 'blogs', element: <BlogsPage /> },
       { path: 'blogs/:blogid', element: <Blog /> },
       { path: '*', element: <NotFound /> }
     ]
