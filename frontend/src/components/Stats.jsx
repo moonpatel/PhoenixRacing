@@ -18,11 +18,10 @@ const Stats = () => {
                 <MDBCol>
                     <MDBCard className='h-100 img-fluid z-depth-1 wow zoomIn' alignment='center'>
                         <MDBCardBody>
-                            <MDBCardTitle className='stats-heading'>Heading</MDBCardTitle>
-                            <MDBCardSubTitle className='stats-num'>99</MDBCardSubTitle>
+                            <MDBCardTitle className='stats-heading'>Cars</MDBCardTitle>
+                            <MDBCardSubTitle className='stats-num'>17</MDBCardSubTitle>
                             <MDBCardText>
-                                This is a longer card with supporting text below as a natural lead-in to additional content.
-                                This content is a little bit longer.
+                                Delivered on track
                             </MDBCardText>
                         </MDBCardBody>
                     </MDBCard>
@@ -30,19 +29,19 @@ const Stats = () => {
                 <MDBCol>
                     <MDBCard className='h-100' alignment='center'>
                         <MDBCardBody>
-                            <MDBCardTitle className='stats-heading'>Heading</MDBCardTitle>
-                            <MDBCardSubTitle className='stats-num'>99</MDBCardSubTitle>
-                            <MDBCardText>This is a short card.</MDBCardText>
+                            <MDBCardTitle className='stats-heading'>Awards</MDBCardTitle>
+                            <MDBCardSubTitle className='stats-num'>22</MDBCardSubTitle>
+                            <MDBCardText>on our name</MDBCardText>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
                 <MDBCol>
                     <MDBCard className='h-100' alignment='center'>
                         <MDBCardBody>
-                            <MDBCardTitle className='stats-heading'>Heading</MDBCardTitle>
-                            <MDBCardSubTitle className='stats-num'>99</MDBCardSubTitle>
+                            <MDBCardTitle className='stats-heading'>Generation</MDBCardTitle>
+                            <MDBCardSubTitle className='stats-num'>18</MDBCardSubTitle>
                             <MDBCardText>
-                                This is a longer card with supporting text below as a natural lead-in to additional content.
+                                years of excellence
                             </MDBCardText>
                         </MDBCardBody>
                     </MDBCard>
