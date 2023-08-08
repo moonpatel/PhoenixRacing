@@ -156,7 +156,6 @@ const alumni2025 = [
 
 
 
-
 function CreateEntry(alum) {
   return (
     <Card
