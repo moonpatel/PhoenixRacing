@@ -6,7 +6,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { useSearchParams } from 'react-router-dom';
 
 
-const crewmembers = [
+const team2025 = [
   {
     name: "Vamshi",
     image: "https://drive.google.com/open?id=1V_ewWCE66kfIygFry2S7SslRS8DcVxp_",
@@ -209,9 +209,171 @@ const filterFunc = (position) => {
   }
 }
 
+
+const team2024 = [
+  {
+    name: "Harsh Patel",
+    image: "https://drive.google.com/file/d/1B5SVHh8pDDxuZukRrALPY3Vzo77pmILK/view?usp=drivesdk",
+    position: "Captain",
+    text: "https://www.linkedin.com/in/harsh-patel-b43b81191"
+  },
+  {
+    name: "Rushi Desai",
+    image: "https://drive.google.com/file/d/1bylbQ1VGkMt8WGsCMY0UGd3lXZJCvA4X/view?usp=drivesdk",
+    position: "Vice-Captain",
+    text: "https://www.linkedin.com/in/rushi-desai-4988001ba/"
+  },
+  {
+    name: "Anish Shah",
+    image: "https://drive.google.com/file/d/16IFcRzDe0zYmTGdRWQaRvXDkrilRB8ut/view?usp=drivesdk",
+    position: "Chairperson",
+    text: "https://www.linkedin.com/in/2002-anish-shah"
+  },
+  {
+    name: "Pooja Patel",
+    image: "https://drive.google.com/file/d/1QaRGyaDrkCUQ7BsD5MbOD9ncCTrmO4eD/view?usp=drivesdk",
+    position: "Co-Chairperson",
+    text: "https://www.linkedin.com/in/pooja-patel-b08292217"
+  },
+  {
+    name: "Arnav Vaghela",
+    image: "https://drive.google.com/file/d/167cpNP-6lNlJd9PIIrHdQQ_89R9eTwik/view?usp=drivesdk",
+    position: "Sponsorship and Procurement Head",
+    text: ""
+  },
+  {
+    name: "Yatharth Kapadia",
+    image: "https://drive.google.com/file/d/1YdjUHUpA3-74iJZs3W7SCGlUqONy8A5m/view?usp=drivesdk",
+    position: "Treasurer",
+    text: "https://www.linkedin.com/in/yatharth-kapadia-705784200"
+  },
+  {
+    name: "Burhanuddin Lokhandwala",
+    image: "https://drive.google.com/file/d/1CdIbyNoXN7IaT7t87K4xiTVphbmVtxCX/view?usp=drivesdk",
+    position: "Team Manager",
+    text: "https://www.linkedin.com/in/burhanuddinlokhandwala04"
+  },
+  {
+    name: "Janvi Gohil",
+    image: "https://drive.google.com/file/d/1lIcQAnahIzDBM5hVLG-2unNjumQHhoAU/view?usp=drivesdk",
+    position: "Public Relations Head",
+    text: ""
+  },
+  {
+    name: "Pratham Parmar",
+    image: "https://drive.google.com/file/d/1QmOYrJ4vnejXjoLnntQbTBcTna7VyL1n/view?usp=drivesdk",
+    position: "Brakes Head",
+    text: "https://www.linkedin.com/in/pratham-parmar-244022215"
+  },
+  {
+    name: "Hardik Choudhary",
+    image: "https://drive.google.com/file/d/1gJqr5Lzy3VULe-J5MA65B3AtAy_9dX1W/view?usp=drivesdk",
+    position: "Chassis Head",
+    text: "https://www.linkedin.com/in/hardik-choudhary-38524324a"
+  },
+  {
+    name: "Alin Polra",
+    image: "https://drive.google.com/file/d/11KJVzQc_UcdOVeG7NZoAHDy63dq2kwjn/view?usp=drivesdk",
+    position: "Electrical Head",
+    text: ""
+  },
+  {
+    name: "Parthiv Patel",
+    image: "https://drive.google.com/file/d/1xyWyiheMq7oEBl0CSx-RO5LWBi1peWxk/view?usp=drivesdk",
+    position: "Powertrain Head",
+    text: ""
+  },
+  {
+    name: "Pratham Sharma",
+    image: "https://drive.google.com/file/d/1SbT9mv1BaGNsEaSzaBs4ZWe9pNxxokU6/view?usp=drivesdk",
+    position: "Powertrain Head",
+    text: "https://www.linkedin.com/in/pratham-sharma-b8741024a?trk=contact-info"
+  },
+  {
+    name: "Vansh Jogia",
+    image: "https://drive.google.com/file/d/1vmm54KGoYS_Vh_qaYO9N_LHDGiRhZKYV/view?usp=drivesdk",
+    position: "Steering and Suspension Head",
+    text: "https://www.linkedin.com/in/vansh-jogia-238773216"
+  },
+  {
+    name: "S L Satyanarayana",
+    image: "https://drive.google.com/file/d/1GEEjYLmVgipUqlKbIw8Aq6aQE5kbPObI/view?usp=drivesdk",
+    position: "Team Member",
+    text: "https://www.linkedin.com/in/slsatyanarayana"
+  },
+  {
+    name: "Kartik Mohadarkar",
+    image: "https://drive.google.com/file/d/1mNSsmEWfJVC4IkkL67lr-U_xCbQO3lhP/view?usp=drivesdk",
+    position: "Team Member",
+    text: "https://www.linkedin.com/in/kartik-m0390"
+  },
+  {
+    name: "Nishit Prajapati",
+    image: "https://drive.google.com/file/d/1VGpljkuHu_PQq52io1eUAG4IOPZWndlo/view?usp=drivesdk",
+    position: "Team Member",
+    text: ""
+  },
+  {
+    name: "Miit Chetan Pabari",
+    image: "https://drive.google.com/file/d/1z01wnGhZ4wDwlY8dzSbtycchOwXRAsOJ/view?usp=drivesdk",
+    position: "Team Member",
+    text: "www.linkedin.com/in/miit-pabari"
+  },
+  {
+    name: "Aaditya Nimkar",
+    image: "https://drive.google.com/file/d/1zpR1Hm9dJqYVubpU7Zth7Pms-j_7TECz/view?usp=drivesdk",
+    position: "Team Member",
+    text: "www.linkedin.com/in/aaditya-nimkar-21424224a"
+  },
+  {
+    name: "Vishwa Menpara",
+    image: "https://drive.google.com/file/d/14LMU03P34ZE6Aa4HA9smcorDUlIY3LYj/view?usp=drivesdk",
+    position: "Team Member",
+    text: "https://www.linkedin.com/in/vishwa-menpara"
+  },
+  {
+    name: "Adarsh Kataktalware",
+    image: "https://drive.google.com/file/d/1d_zPYMYHMsYSSxqqicHvQvhFr9jQ-SqW/view?usp=drivesdk",
+    position: "Team Member",
+    text: "https://www.linkedin.com/in/adarsh-kataktalware-0803a8243"
+  },
+  {
+    name: "A. Hemanth Kumar",
+    image: "https://drive.google.com/file/d/1DwMvdtuH4gOfvk3LYPHVEd7XleDNBEwJ/view?usp=drivesdk",
+    position: "Team Member",
+    text: ""
+  },
+  {
+    name: "Nayan Lakade",
+    image: "https://drive.google.com/file/d/1nkdilWT5TkgLJU1DYn-rpt4xQtB0W4hE/view?usp=drivesdk",
+    position: "Team Member",
+    text: "https://www.linkedin.com/in/nayan-lakade-34279a1bb"
+  },
+  {
+    name: "Kunal Gupta",
+    image: "https://drive.google.com/file/d/1z01wnGhZ4wDwlY8dzSbtycchOwXRAsOJ/view?usp=drivesdk",
+    position: "Team Member",
+    text: ""
+  },
+  {
+    name: "Shrujal Zala",
+    image: "https://drive.google.com/file/d/1acT36ZuFVnw_i5fbGPnvbw03TmJNxTRG/view?usp=drivesdk",
+    position: "Team Member",
+    text: "www.linkedin.com/in/shrujal-zala-a20887201"
+  },
+  {
+    name: "Dhruv Chudasuma",
+    image: "https://drive.google.com/file/d/1xeMpUnhGfyay1SewAxrNQ7ApbfGndblb/view?usp=drivesdk",
+    position: "Team Member",
+    text: "https://www.linkedin.com/in/dhruv-chudasma-64828121b"
+  }
+];
+
+
 const CrewMembers = () => {
   const [searchParams] = useSearchParams();
   const year = searchParams.get('year');
+  const crewmembers = year == '2024' ? team2024 : team2025;
 
   return (
     <div className='crew-members'>
