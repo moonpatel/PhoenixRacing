@@ -56,8 +56,8 @@ export default function Navbar() {
                   <span className={`text ${showNav ? 'extra-padding' : ''}`} id="nav-team">Team</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link href='/team'><div className="drop-text">2025</div></MDBDropdownItem>
-                  <MDBDropdownItem link><div className="drop-text">2024</div></MDBDropdownItem>
+                  <MDBDropdownItem link href='/team?year=2025'><div className="drop-text">2025</div></MDBDropdownItem>
+                  <MDBDropdownItem link href='/team?year=2024'><div className="drop-text">2024</div></MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
