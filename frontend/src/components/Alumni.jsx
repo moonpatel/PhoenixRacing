@@ -188,38 +188,38 @@ function Alumni() {
     <div className="alumni-container">
       <div className="alumni-bar">
         <div className="alumni-bar-contain">
-        <button
-          value={2023}
-          onClick={() => {
-            handleButtonClick(2023);
-          }}
-        >
-          2023
-        </button>
-        <button
-          value={2022}
-          onClick={() => {
-            handleButtonClick(2022);
-          }}
-        >
-          2022
-        </button>
-        <button
-          value={2021}
-          onClick={() => {
-            handleButtonClick(2021);
-          }}
-        >
-          2021
-        </button>
-        <button
-          value={2020}
-          onClick={() => {
-            handleButtonClick(2020);
-          }}
-        >
-          2020
-        </button>
+          <button
+            value={2023}
+            onClick={() => {
+              handleButtonClick(2023);
+            }}
+          >
+            2023
+          </button>
+          <button
+            value={2022}
+            onClick={() => {
+              handleButtonClick(2022);
+            }}
+          >
+            2022
+          </button>
+          <button
+            value={2021}
+            onClick={() => {
+              handleButtonClick(2021);
+            }}
+          >
+            2021
+          </button>
+          <button
+            value={2020}
+            onClick={() => {
+              handleButtonClick(2020);
+            }}
+          >
+            2020
+          </button>
         </div>
       </div>
       <h1>Alumni</h1>
@@ -232,8 +232,8 @@ function Alumni() {
           </div>
         ) : (
           <div className="alumni-year-child">
-          <h2 className="alumni-gradyear">Over the Years</h2>
-          {alumni.map(CreateEntry)}
+            <h2 className="alumni-gradyear">Over the Years</h2>
+            {alumni2025.map(CreateEntry)}
           </div>
         )}
       </div>

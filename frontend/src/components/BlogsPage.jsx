@@ -48,51 +48,57 @@ const BlogsPage = () => {
 
 
   return (
-    <div className="blogs-page-container">
-      <div className="upcoming-events">
-        <UpEvents />
+    <>
+      <div className="news-hero">
+        <div className='news-hero-image'>
+        </div>
       </div>
-      <div className="past-events">
-      <h1 className="blogs-page-title">Past Events</h1>
-      <div className="blogs-list">
-        {blogs && blogs.map(({ coverImage, id, title, content, author, date, time }) => (
-          <div className="blog-item" onClick={() => navigate(`/blogs/${id}`)}>
-            <img className="blog-item-cover-image" src={coverImage} alt="Blog Cover" />
-            <div className='blog-item-text'>
-              <h2 className="blog-item-title">{title.slice(0,50)}...</h2>
-              <p className="blog-item-excerpt">{content.slice(0, 130)}...</p>
-              <div className="blog-item-meta">
-                <div className="blog-item-info">
-                  <div className="blog-item-date"> {date}</div>
-                  <div className="blog-item-author">{author}</div>
+      <div className="blogs-page-container">
+        <div className="upcoming-events">
+          <UpEvents />
+        </div>
+        <div className="past-events">
+          <h1 className="blogs-page-title">Past Events</h1>
+          <div className="blogs-list">
+            {blogs && blogs.map(({ coverImage, id, title, content, author, date, time }) => (
+              <div className="blog-item" onClick={() => navigate(`/blogs/${id}`)}>
+                <img className="blog-item-cover-image" src={coverImage} alt="Blog Cover" />
+                <div className='blog-item-text'>
+                  <h2 className="blog-item-title">{title.slice(0, 50)}...</h2>
+                  <p className="blog-item-excerpt">{content.slice(0, 130)}...</p>
+                  <div className="blog-item-meta">
+                    <div className="blog-item-info">
+                      <div className="blog-item-date"> {date}</div>
+                      <div className="blog-item-author">{author}</div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
-        ))}
-      </div>
-      </div>
-      <div className="all-blogs">
-      <h1 className="blogs-page-title">Featured Posts</h1>
-      <div className="blogs-list">
-        {blogs && blogs.map(({ coverImage, id, title, content, author, date, time }) => (
-          <div className="blog-item" onClick={() => navigate(`/blogs/${id}`)}>
-            <img className="blog-item-cover-image" src={coverImage} alt="Blog Cover" />
-            <div className='blog-item-text'>
-              <h2 className="blog-item-title">{title.slice(0,50)}...</h2>
-              <p className="blog-item-excerpt">{content.slice(0, 130)}...</p>
-              <div className="blog-item-meta">
-                <div className="blog-item-info">
-                  <div className="blog-item-date"> {date}</div>
-                  <div className="blog-item-author">{author}</div>
+        </div>
+        <div className="all-blogs">
+          <h1 className="blogs-page-title">Featured Posts</h1>
+          <div className="blogs-list">
+            {blogs && blogs.map(({ coverImage, id, title, content, author, date, time }) => (
+              <div className="blog-item" onClick={() => navigate(`/blogs/${id}`)}>
+                <img className="blog-item-cover-image" src={coverImage} alt="Blog Cover" />
+                <div className='blog-item-text'>
+                  <h2 className="blog-item-title">{title.slice(0, 50)}...</h2>
+                  <p className="blog-item-excerpt">{content.slice(0, 130)}...</p>
+                  <div className="blog-item-meta">
+                    <div className="blog-item-info">
+                      <div className="blog-item-date"> {date}</div>
+                      <div className="blog-item-author">{author}</div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
-      </div>
-    </div>
+    </>
   )
 }
 

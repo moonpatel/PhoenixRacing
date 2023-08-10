@@ -1,8 +1,7 @@
 .crew-members {
     margin: 0;
     padding: 0;
-    background-color: #F6F5F7;
-
+    background-color: #f6f5f7;
 }
 
 .crew-hero-image {
@@ -17,8 +16,15 @@
     align-items: center;
 }
 
+.crew-2024 {
+    background: url("/crew/crew_2024.heic");
+}
+
+.crew-2025 {
+    background: url("/crew/crew_2025.jpg");
+}
+
 .crew-hero {
-    background: url('./image4.jpg');
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -44,30 +50,28 @@
     padding-bottom: 25px;
 }
 
-.team-heading{
-    font-size:var(--header);
+.team-heading {
+    font-size: var(--header);
     font-variant: small-caps;
     margin-bottom: calc((1rem + 5vw) * 0.1);
     font-weight: 400;
     text-align: center;
-    color: #0072BB;
+    color: #0072bb;
     margin-top: calc((1rem + 5vw) * 1);
 }
 
 .thick-line {
-    border-top: 2px solid #0072BB;
+    border-top: 2px solid #0072bb;
 }
 
 .thin-line {
-    border-bottom: 1px solid #0072BB;
+    border-bottom: 1px solid #0072bb;
 }
-
-
 
 .technical {
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -80,7 +84,7 @@
     line-height: 47px;
     letter-spacing: 0em;
     text-align: center;
-    color: #0072BB;
+    color: #0072bb;
     width: fit-content;
 }
 
@@ -92,7 +96,6 @@
     row-gap: 20px;
     column-gap: 40px;
 }
-
 
 .managerial {
     height: auto;
@@ -109,7 +112,7 @@
     line-height: 47px;
     letter-spacing: 0em;
     text-align: left;
-    color: #0072BB;
+    color: #0072bb;
     padding: 10vh 0;
     margin-bottom: 0;
 }
@@ -120,45 +123,40 @@
     grid-gap: 20px;
 }
 
-
 .electrical {
     padding-top: 10vh;
-
 }
 
 .black-line {
-    border-top: 2px solid #6E6E73;
-
+    border-top: 2px solid #6e6e73;
 }
 .black-light-line {
-    border-top: 1px solid #6E6E73;
-
+    border-top: 1px solid #6e6e73;
 }
 
 .web-member {
     padding: 3vh 0;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .web-member h1 {
     font-size: 24px;
     font-weight: 400;
-    color: #0072BB;
+    color: #0072bb;
     text-align: center;
 }
 
 .web-member a {
     font-size: 16px;
     font-weight: 400;
-    color: #6E6E73;
+    color: #6e6e73;
     text-align: center;
 }
 
 @media (max-width: 767px) {
-
     .technical {
         flex-direction: column;
         align-items: center;
