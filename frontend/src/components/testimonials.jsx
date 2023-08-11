@@ -37,7 +37,6 @@ class Testimonials extends Component {
           testimonials.map(({ name, position, text, image }) => {
             return (
               <div>
-                <img src={image} alt="1" className="test-img" />
                 <div className="test-Carousel">
                   <h3>{name}</h3>
                   <h4>{position}</h4>

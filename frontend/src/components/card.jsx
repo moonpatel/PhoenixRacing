@@ -6,14 +6,14 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 function Card(props) {
   return (
     <div className="alumni-card">
-      <div className="alumni-top">
-        <img src={props.img} alt="profilepicture" className="alumni-card-img"></img>
+      <div className="alumni-top" style={{ backgroundImage: `url(${props.img})` }}>
+        {/* <img src={props.img} alt="profilepicture" className="alumni-card-img"></img> */}
       </div>
       <div className="alumni-bottom">
         <h2>{props.name}</h2>
         <h3>{props.position}</h3>
         <a href={props.url} target="_blank" rel="noreferrer">
-        <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl'/>
+          <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
         </a>
       </div>
     </div>

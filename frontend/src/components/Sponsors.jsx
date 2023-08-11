@@ -4,6 +4,7 @@ import Gallery from './Gallery'
 // import SlideLeft from './SlideLeft';
 // import SlideRight from './SlideRight';
 import Slider from './Slider';
+import brochure from '/brochure.pdf';
 import Connect from './connect';
 import { Helmet } from 'react-helmet';
 
@@ -61,7 +62,7 @@ const Sponsors = () => {
                 <Connect title="Interested in sponsoring us?" btnName="Contact Us" />
             </div>
             <div className="brochure-btn">
-                <a href="">View Brochure</a>
+                <a href={brochure} download="Brochure">View Brochure</a>
             </div>
         </div>
     )

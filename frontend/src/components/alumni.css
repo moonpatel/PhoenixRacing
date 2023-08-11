@@ -5,8 +5,8 @@
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-    border-top: 3px solid #0072BB;
-    border-bottom: 1px solid #0072BB;
+    border-top: 3px solid #0072bb;
+    border-bottom: 1px solid #0072bb;
     width: 90vw;
 }
 
@@ -16,7 +16,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -36,38 +36,47 @@
     align-items: center;
     text-align: center;
 }
-.alumni-bottom h2, .alumni-bottom h3, .alumni-bottom a {
+.alumni-bottom h2,
+.alumni-bottom h3,
+.alumni-bottom a {
     /* background-color: antiquewhite; */
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: lighter;
 }
 .alumni-bottom h2 {
-    font-size:clamp(1.2rem,1rem + 5vw, 1.8rem);
-    color: #0072BB;
+    font-size: clamp(1.2rem, 1rem + 5vw, 1.8rem);
+    color: #0072bb;
 }
 .alumni-bottom h3 {
-    font-size:clamp(1rem,1rem + 5vw, 1.5rem);
+    font-size: clamp(1rem, 1rem + 5vw, 1.5rem);
     font-weight: 500;
     color: #6e6e73;
     margin-bottom: 5px;
 }
 .alumni-top {
-    margin:0;
+    margin: 0;
     /* background-color: blueviolet; */
     display: flex;
     flex-direction: row;
+    width: 100%;
+    aspect-ratio: 1;
     justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .alumni-card-img {
     border-radius: 50%;
-    height: 75%;
-    width: 75%;
+    /* height: 75%; */
+    /* width: 100%; */
+    /* aspect-ratio: 1; */
 }
+
 .alumni-gradyear {
     /* background-color: darkblue; */
     width: 10%;
-    color: #0072BB;
+    color: #0072bb;
 }
 .alumni-bar {
     /* background-color: darkorchid; */
@@ -77,9 +86,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     margin-top: 8vh;
-    
 }
 
 .alumni-bar button {
@@ -88,42 +96,42 @@
     background-color: white;
     margin-left: 0;
     margin-right: 0;
-    border:1px 0px 1px 0px;
+    border: 1px 0px 1px 0px;
     border-style: solid;
-    border-color: #0072BB;
+    border-color: #0072bb;
     border-radius: 0;
 }
 
 .alumni-bar button {
-    color: #0072BB;
-text-align: center;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
+    color: #0072bb;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
 }
 .alumni-bar button:hover {
-    background-color: #0072BB;
+    background-color: #0072bb;
     color: white;
     transition: ease-in-out;
     transition-duration: 0.3s;
     text-decoration: none;
 }
 .alumni-container {
-    background: #F6F5F7;
+    background: #f6f5f7;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.alumni-container>h1 {
+.alumni-container > h1 {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
-    color: #0072BB;
+    color: #0072bb;
     font-size: var(--header);
-    margin-top:calc((1rem + 5vw) * 1);
+    margin-top: calc((1rem + 5vw) * 1);
 }
 .alumni-connect {
     /* background-color: #0072BB; */
@@ -136,18 +144,17 @@ text-transform: uppercase;
     padding-left: 10vw;
     padding-bottom: 4vw;
     padding-top: 2vw;
-    font-family: 'Raleway', sans-serif;
-    color: #0072BB;
+    font-family: "Raleway", sans-serif;
+    color: #0072bb;
 }
-.alumni-connect>h2 {
-    font-size: clamp(1.5rem, 1rem + 5vw ,2rem);
+.alumni-connect > h2 {
+    font-size: clamp(1.5rem, 1rem + 5vw, 2rem);
 }
-.alumni-connect button
-{
-    font-size: clamp(1rem, 1rem + 5vw ,1.5rem);
-    font-family: 'Raleway', sans-serif;
+.alumni-connect button {
+    font-size: clamp(1rem, 1rem + 5vw, 1.5rem);
+    font-family: "Raleway", sans-serif;
     background-color: white;
-    color: #0072BB;
+    color: #0072bb;
     outline: none;
     border: none;
     padding: 1vw;
@@ -156,13 +163,14 @@ text-transform: uppercase;
     /* transform: scale(1.2); */
 }
 .alumni-connect button:hover {
-    background-color: #F6F5F7;
+    background-color: #f6f5f7;
     transition-duration: 0.1s;
-    border: 1px solid #0072BB;
+    border: 1px solid #0072bb;
     text-decoration: none;
 }
-.alumni-bar, .alumni-gradyear {
-    font-family: 'Raleway', sans-serif;
+.alumni-bar,
+.alumni-gradyear {
+    font-family: "Raleway", sans-serif;
 }
 @media only screen and (max-width: 768px) {
     .alumni-bar {
@@ -171,7 +179,7 @@ text-transform: uppercase;
         /* background-color: #0072BB; */
     }
     .alumni-bar button {
-        width:20vw;
+        width: 20vw;
         height: 5vh;
         font-size: 2vh;
     }
@@ -188,7 +196,7 @@ text-transform: uppercase;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        align-content:stretch;
+        align-content: stretch;
         flex-wrap: wrap;
         /* overflow-wrap: unset; */
     }
@@ -197,8 +205,10 @@ text-transform: uppercase;
         margin: 6vh;
         transform: scale(1.5);
     }
-    .alumni-bottom h2, .alumni-bottom h3, .alumni-bottom a {
-       font-size: 2vh;
+    .alumni-bottom h2,
+    .alumni-bottom h3,
+    .alumni-bottom a {
+        font-size: 2vh;
     }
     .alumni-gradyear {
         width: 100vw;
