@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -43,12 +44,16 @@ export default function Navbar() {
         <MDBCollapse navbar show={showNav}>
           <MDBNavbarNav right fullWidth={false} className='d-flex justify-content-center align-items-center mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='/home' >
+              <Link to='/'>
                 <div className={`text ${showNav ? 'no-padding' : ''}`}>Home</div>
-              </MDBNavbarLink>
+              </Link>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='/cars'><div className={`text ${showNav ? 'no-padding' : ''}`}>Cars</div></MDBNavbarLink>
+              <Link to='/cars'>
+                <div className={`text ${showNav ? 'no-padding' : ''}`}>
+                  Cars
+                </div>
+              </Link>
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBDropdown>
@@ -56,24 +61,38 @@ export default function Navbar() {
                   <span className={`text ${showNav ? 'extra-padding' : ''}`} id="nav-team">Team</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link href='/team?year=2025'><div className="drop-text">2025</div></MDBDropdownItem>
-                  <MDBDropdownItem link href='/team?year=2024'><div className="drop-text">2024</div></MDBDropdownItem>
+                  <MDBDropdownItem link href='/team?year=2025'>
+                    <Link to='/team?year=2025'>
+                      <div className="drop-text">2025</div>
+                    </Link>
+                  </MDBDropdownItem>
+                  <MDBDropdownItem link href='/team?year=2024'>
+                    <Link to="/team?year=2024">
+                      <div className="drop-text">2024</div>
+                    </Link>
+                  </MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='/alumni'>
-                <div className={`text ${showNav ? 'no-padding' : ''}`}>Alumni</div>
+              <MDBNavbarLink>
+                <Link to='/alumni'>
+                  <div className={`text ${showNav ? 'no-padding' : ''}`}>Alumni</div>
+                </Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='/sponsors'>
-                <div className={`text ${showNav ? 'no-padding' : ''}`}>Sponsors</div>
+              <MDBNavbarLink>
+                <Link to="/sponsors">
+                  <div className={`text ${showNav ? 'no-padding' : ''}`}>Sponsors</div>
+                </Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href='/blogs' className='position-relative d-inline-block'>
-                <div className={`text ${showNav ? 'no-padding' : ''}`}>News</div>
+              <MDBNavbarLink className='position-relative d-inline-block'>
+                <Link to="/blogs">
+                  <div className={`text ${showNav ? 'no-padding' : ''}`}>News</div>
+                </Link>
                 <span>
                   <MDBBadge color='danger' notification pill className='position-absolute translate-middle start-80 top-3 d-md-none d-lg-inline-block'>
                     New<span className="visually-hidden">New alerts</span>
