@@ -45,13 +45,20 @@
     font-weight: lighter;
 }
 .alumni-bottom h2 {
-    font-size: clamp(1.2rem, 1rem + 5vw, 1.8rem);
+    margin-top: 0.8rem;
+    font-size: clamp(1.2rem, 1rem + 5vw, 1.4rem);
     color: #0072bb;
 }
 .alumni-bottom h3 {
-    font-size: clamp(1rem, 1rem + 5vw, 1.5rem);
+    font-size: clamp(1rem, 1rem + 5vw, 1.2rem);
     font-weight: 500;
     color: #6e6e73;
+    margin-bottom: 5px;
+}
+.alumni-bottom h4 {
+    font-size: clamp(0.5rem, 1rem + 5vw, 1rem);
+    font-weight: 500;
+    /* color: #6e6e73; */
     margin-bottom: 5px;
 }
 .alumni-top {

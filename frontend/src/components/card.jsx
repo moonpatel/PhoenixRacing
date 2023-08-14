@@ -11,7 +11,8 @@ function Card(props) {
       </div>
       <div className="alumni-bottom">
         <h2>{props.name}</h2>
-        <h3>{props.position}</h3>
+        {/* <h3>{props.position}</h3> */}
+        <h4>{props.company}</h4>
         <a href={props.url} target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
         </a>
