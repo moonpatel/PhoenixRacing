@@ -20,17 +20,17 @@ const Sponsors = () => {
     const prevSponsors = [
         { url: "sponsors/past/apollo-tyres-logo.png", title: "" },
         { url: "frontend/public/sponsors/past/canera bank.png", title: "" },
-        { url: "sponsors/past/ceat.png", title: "" },
-        { url: "sponsors/past/GCST.jfif", title: "" },
-        { url: "sponsors/past/godrej.jfif", title: "" },
+        { url: "sponsors/past/ceat-removebg-preview.png", title: "" },
+        { url: "sponsors/past/GCST-removebg-preview.png", title: "" },
+        { url: "sponsors/past/godrej-remove.png", title: "" },
         { url: "sponsors/past/Indian-Oil-Emblem.png", title: "" },
         { url: "sponsors/past/JK-Tyre-logo-PNG-Transparent.png", title: "" },
-        { url: "sponsors/past/ktm.png", title: "" },
-        { url: "sponsors/past/mahindra.png", title: "" },
+        { url: "sponsors/past/ktm-removebg-preview.png", title: "" },
+        { url: "sponsors/past/mahindra-removebg-preview.png", title: "" },
         { url: "sponsors/past/OYO_Rooms_(logo).png", title: "" },
-        { url: "sponsors/past/sopan.png", title: "" },
+        { url: "sponsors/past/sopan-removebg-preview.png", title: "" },
         { url: "sponsors/past/tata-motors-logo-3.png", title: "" },
-        { url: "sponsors/past/toyota.png", title: "" },
+        { url: "sponsors/past/toyota-removebg-preview.png", title: "" },
     ]
     return (
         <div className='sponsor'>
@@ -56,7 +56,7 @@ const Sponsors = () => {
             </div>
             <div className='prev'>
                 <h1>Previous Sponsors</h1>
-                <Gallery images={prevSponsors} />
+               <Gallery images={prevSponsors} />
             </div>
             <div className="sponsor-btn">
                 <Connect title="Interested in sponsoring us?" btnName="Contact Us" />
