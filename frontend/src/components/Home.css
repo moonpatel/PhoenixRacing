@@ -15,6 +15,9 @@
   margin-right: auto;
   /* background-color: var(--white); */
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 .stat-section {
     margin-left:calc((1rem + 5vw));

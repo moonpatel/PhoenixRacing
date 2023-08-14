@@ -3,16 +3,16 @@ import FacultyCard from './FacultyCard'
 
 const faculties = [
   {
-    name: "Rohan Pandey",
-    image: "https://www.svnit.ac.in/web/department/Mechanical/images/rohan_rahul.jpg",
-    position: "Assisstant Professor, PHD",
-    mail: "rohanpande@med.svnit.ac.in"
-  },
-  {
     name: "Bade Mukund",
     image: "https://www.svnit.ac.in/web/department/Mechanical/images/Dr%20Bade%20Mukund.JPG",
     position: "Assisstant Professor, PHD",
     mail: "bmh@med.svnit.ac.in"
+  },
+  {
+    name: "Rohan Pandey",
+    image: "https://www.svnit.ac.in/web/department/Mechanical/images/rohan_rahul.jpg",
+    position: "Assisstant Professor, PHD",
+    mail: "rohanpande@med.svnit.ac.in"
   },
   {
     name: "Suresh Lakhimsetty",

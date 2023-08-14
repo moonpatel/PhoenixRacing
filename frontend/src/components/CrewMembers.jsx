@@ -366,7 +366,9 @@ const team2024 = [
     position: "Team Member chassis",
     image: "https://drive.google.com/uc?export=view&id=1xeMpUnhGfyay1SewAxrNQ7ApbfGndblb",
     text: "https://www.linkedin.com/in/dhruv-chudasma-64828121b"
-  }]
+  },
+];
+
 
 const CrewMembers = () => {
   const [searchParams] = useSearchParams();
@@ -531,35 +533,35 @@ const CrewMembers = () => {
         <h1 className='team-heading'>Web Development</h1>
         <div className='black-line'></div>
         <div className='web-member'>
-          <h1>Name</h1>
+          <h1>Abhishek</h1>
           <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
             <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
           </a>
         </div>
         <div className='black-light-line' />
         <div className='web-member'>
-          <h1>Name</h1>
+          <h1>Khushi Patel</h1>
           <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
             <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
           </a>
         </div>
         <div className='black-light-line' />
         <div className='web-member'>
-          <h1>Name</h1>
+          <h1>Moon Patel</h1>
           <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
             <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
           </a>
         </div>
         <div className='black-light-line' />
         <div className='web-member'>
-          <h1>Name</h1>
+          <h1>Tejo Kaushal</h1>
           <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
             <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
           </a>
         </div>
         <div className='black-light-line' />
         <div className='web-member'>
-          <h1>Name</h1>
+          <h1>Yatra Vaghasia</h1>
           <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
             <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
           </a>
