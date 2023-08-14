@@ -375,6 +375,7 @@ const CrewMembers = () => {
   const year = searchParams.get('year');
   const crewmembers = year == '2024' ? team2024 : team2025;
 
+
   return (
     <div className='crew-members'>
       <div className={`crew-hero ${year == '2024' ? 'crew-2024' : 'crew-2025'}`}>
@@ -384,126 +385,150 @@ const CrewMembers = () => {
       <div className="crew-text">
       </div>
       <div className='team'>
-        <h1 className='team-heading'>Team</h1>
-        <div className='thick-line'></div>
-        <div className='technical'>
-          <div className='technical-heading'>Technical</div>
-          <div className='technical-crew'>
-            {crewmembers.filter(filterFunc()).map((member, index) => (
-              <CrewCard
-                key={index}
-                name={member.name}
-                image={member.image}
-                position={member.position}
-                text={member.text}
-              />
-            ))}
-          </div>
-        </div>
-        <div className='thin-line'></div>
-        <div className='technical'>
-          <div className='technical-heading'>Managerial</div>
-          <div className='technical-crew'>
-            {crewmembers.filter(filterFunc()).map((member, index) => (
-              <CrewCard
-                key={index} // Ensure a unique key for each item
-                name={member.name}
-                image={member.image}
-                position={member.position}
-                text={member.text}
-              />
-            ))}
-          </div>
-        </div>
-        <div className='thick-line'></div>
-        <h1 className='team-heading'>Departments</h1>
-        <div className='thick-line'></div>
-        <div className='technical'>
-          <div className='technical-heading'>Electrical</div>
-          <div className='technical-crew'>
-            {crewmembers.filter(filterFunc()).map((member, index) => (
-              <CrewCard
-                key={index} // Ensure a unique key for each item
-                name={member.name}
-                image={member.image}
-                position={member.position}
-                text={member.text}
-              />
-            ))}
-          </div>
-        </div>
-        <div className='thin-line'></div>
-        <div className='technical'>
-          <div className='technical-heading'>Brakes</div>
-          <div className='technical-crew'>
-            {crewmembers.filter(filterFunc('Brakes')).map((member, index) => (
-              <CrewCard
-                key={index} // Ensure a unique key for each item
-                name={member.name}
-                image={member.image}
-                position={member.position}
-                text={member.text}
-              />
-            ))}
-          </div>
-        </div>
-        <div className='thin-line'></div>
-        <div className='technical'>
-          <div className='technical-heading'>Suspension & Steering</div>
-          <div className='technical-crew'>
-            {crewmembers.filter(filterFunc('Sns')).map((member, index) => (
-              <CrewCard
-                key={index} // Ensure a unique key for each item
-                name={member.name}
-                image={member.image}
-                position={member.position}
-                text={member.text}
-              />
-            ))}
-          </div>
-        </div>
-        <div className='technical'>
-          <div className='technical-heading'>Powertrain</div>
-          <div className='technical-crew'>
-            {crewmembers.filter(filterFunc('Powertrain')).map((member, index) => (
-              <CrewCard
-                key={index} // Ensure a unique key for each item
-                name={member.name}
-                image={member.image}
-                position={member.position}
-                text={member.text}
-              />
-            ))}
-          </div>
-        </div>
-        <div className='technical'>
-          <div className='technical-heading'>Chasis</div>
-          <div className='technical-crew'>
-            {crewmembers.filter(filterFunc('Chasis')).map((member, index) => (
-              <CrewCard
-                key={index} // Ensure a unique key for each item
-                name={member.name}
-                image={member.image}
-                position={member.position}
-                text={member.text}
-              />
-            ))}
-          </div>
-        </div>
-        <div className='technical'>
-          <div className='technical-heading'>Electrical</div>
-          <div className='technical-crew'>
-            {crewmembers.filter(filterFunc('Electrical')).map((member, index) => (
-              <CrewCard
-                key={index} // Ensure a unique key for each item
-                name={member.name}
-                image={member.image}
-                position={member.position}
-                text={member.text}
-              />
-            ))}
-          </div>
-        </div>
+
+        {
+          year == '2024'
+            ?
+            <>
+              <h1 className='team-heading'>Team</h1>
+              <div className='thick-line' style={{ marginBottom: "30px" }}></div>
+              <div>
+                <div className='technical-crew'>
+                  {team2024.map((member, index) => (
+                    <CrewCard
+                      key={index}
+                      name={member.name}
+                      image={member.image}
+                      position={member.position}
+                      text={member.text}
+                    />
+                  ))}
+                </div>
+              </div>
+            </>
+            :
+            <>
+              {/* <div className='technical'>
+                <div className='technical-heading'>Technical</div>
+                <div className='technical-crew'>
+                  {crewmembers.filter(filterFunc()).map((member, index) => (
+                    <CrewCard
+                      key={index}
+                      name={member.name}
+                      image={member.image}
+                      position={member.position}
+                      text={member.text}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className='thin-line'></div>
+              <div className='technical'>
+                <div className='technical-heading'>Managerial</div>
+                <div className='technical-crew'>
+                  {crewmembers.filter(filterFunc()).map((member, index) => (
+                    <CrewCard
+                      key={index} // Ensure a unique key for each item
+                      name={member.name}
+                      image={member.image}
+                      position={member.position}
+                      text={member.text}
+                    />
+                  ))}
+                </div>
+              </div> */}
+              <div className='thick-line'></div>
+              <h1 className='team-heading'>Departments</h1>
+              <div className='thick-line'></div>
+              <div className='technical'>
+                <div className='technical-heading'>Electrical</div>
+                <div className='technical-crew'>
+                  {crewmembers.filter(filterFunc()).map((member, index) => (
+                    <CrewCard
+                      key={index} // Ensure a unique key for each item
+                      name={member.name}
+                      image={member.image}
+                      position={member.position}
+                      text={member.text}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className='thin-line'></div>
+              <div className='technical'>
+                <div className='technical-heading'>Brakes</div>
+                <div className='technical-crew'>
+                  {crewmembers.filter(filterFunc('Brakes')).map((member, index) => (
+                    <CrewCard
+                      key={index} // Ensure a unique key for each item
+                      name={member.name}
+                      image={member.image}
+                      position={member.position}
+                      text={member.text}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className='thin-line'></div>
+              <div className='technical'>
+                <div className='technical-heading'>Suspension & Steering</div>
+                <div className='technical-crew'>
+                  {crewmembers.filter(filterFunc('Sns')).map((member, index) => (
+                    <CrewCard
+                      key={index} // Ensure a unique key for each item
+                      name={member.name}
+                      image={member.image}
+                      position={member.position}
+                      text={member.text}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className='technical'>
+                <div className='technical-heading'>Powertrain</div>
+                <div className='technical-crew'>
+                  {crewmembers.filter(filterFunc('Powertrain')).map((member, index) => (
+                    <CrewCard
+                      key={index} // Ensure a unique key for each item
+                      name={member.name}
+                      image={member.image}
+                      position={member.position}
+                      text={member.text}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className='technical'>
+                <div className='technical-heading'>Chasis</div>
+                <div className='technical-crew'>
+                  {crewmembers.filter(filterFunc('Chasis')).map((member, index) => (
+                    <CrewCard
+                      key={index} // Ensure a unique key for each item
+                      name={member.name}
+                      image={member.image}
+                      position={member.position}
+                      text={member.text}
+                    />
+                  ))}
+                </div>
+              </div>
+              <div className='technical'>
+                <div className='technical-heading'>Electrical</div>
+                <div className='technical-crew'>
+                  {crewmembers.filter(filterFunc('Electrical')).map((member, index) => (
+                    <CrewCard
+                      key={index} // Ensure a unique key for each item
+                      name={member.name}
+                      image={member.image}
+                      position={member.position}
+                      text={member.text}
+                    />
+                  ))}
+                </div>
+              </div>
+            </>
+        }
+
         <div className='thick-line'></div>
         <h1 className='team-heading'>Web Development</h1>
         <div className='black-line'></div>

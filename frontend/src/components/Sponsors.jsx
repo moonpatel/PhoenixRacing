@@ -62,7 +62,7 @@ const Sponsors = () => {
                 <Connect title="Interested in sponsoring us?" btnName="Contact Us" />
             </div>
             <div className="brochure-btn">
-                <a href={brochure} download="Brochure">View Brochure</a>
+                <a href={brochure} target='__blank'>View Brochure</a>
             </div>
         </div>
     )
