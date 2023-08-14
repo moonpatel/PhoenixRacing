@@ -2,23 +2,24 @@
     width: 64% !important;
     margin: auto !important;
     margin-top: 3% !important;
-  }
-  
-  .testimonial-carousel .slide {
-    background: #0072BB !important;
+}
+
+.testimonial-carousel .slide {
+    background: #0072bb !important;
     color: black;
-    min-height: 500px !important;
+    min-height: fit-content !important;
     padding: 3%;
-  }
-  
-  .testimonial-carousel .slide .test-img {
+    padding-bottom: 120px;
+}
+
+.testimonial-carousel .slide .test-img {
     width: 139px !important;
     height: 139px !important;
     border-radius: 50%;
-  }
-  
-  .test-testimonial-Carousel {
-    background:#fafafa !important;
+}
+
+.test-testimonial-Carousel {
+    background: #fafafa !important;
     margin-top: -6%;
     width: 54%;
     margin-left: auto;
@@ -29,16 +30,15 @@
     padding-right: 5%;
     border: 1px solid #ddd;
     height: 290px;
-  }
-  
-  .testimonial-carousel .control-dots {
+}
+
+.testimonial-carousel .control-dots {
     padding-left: 5px !important;
     outline: 0;
     bottom: 5% !important;
+}
 
-  }
-  
-  .test-Carousel h3 {
+.test-Carousel h3 {
     color: var(--white) !important;
     font-weight: 100;
     letter-spacing: 0.2px;
@@ -46,91 +46,90 @@
     font-weight: 600;
     text-transform: uppercase;
     font-size: 17px;
-    font-family: 'Raleway', sans-serif;
-    color: #0072BB;
-  }
-  
-  .test-Carousel h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
+    color: #0072bb;
+}
+
+.test-Carousel h4 {
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     margin-top: 0;
     padding-top: 0;
     font-weight: 500;
     color: var(--white);
     font-size: 14px;
-  }
-  
-  .test-Carousel p {
+}
+
+.test-Carousel p {
     font-weight: 400 !important;
     line-height: 29px !important;
     color: var(--white);
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     max-height: 67px;
-  }
-  
-  .test-Carousel p:before {
+}
+
+.test-Carousel p:before {
     content: "“";
     color: #aaa;
     font-size: 26px;
     font-family: monospace;
     font-weight: 100;
-  }
-  
-  .test-Carousel p:after {
+}
+
+.test-Carousel p:after {
     content: "”";
     color: #aaa;
     font-size: 26px;
     font-family: monospace;
     font-weight: 100;
     line-height: 0;
-  }
-  
-  .testimonial-carousel .control-dots .dot {
+}
+
+.testimonial-carousel .control-dots .dot {
     box-shadow: none !important;
     background: #454545 !important;
     color: var(--white) !important;
     outline: 0;
-  }
-  
-   .control-arrow {
+}
+
+.control-arrow {
     /* background: #000 !important; */
     height: 50px !important;
     position: absolute;
     top: 45% !important;
-  }
-  #root {
+}
+#root {
     text-align: center;
-  }
-  
-  @media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
     .testimonial-carousel-root {
-      outline: 0;
-      width: 93% !important;
-      margin: auto !important;
+        outline: 0;
+        width: 93% !important;
+        margin: auto !important;
     }
-  
+
     .testimonial-carousel.testimonial-carousel-slider .control-arrow {
-      display: none !important;
+        display: none !important;
     }
     .test-testimonial-Carousel {
-      background: #fafafa;
-      margin-top: -9%;
-      width: 88%;
-      margin-left: auto;
-      margin-right: auto;
-      padding-top: 8%;
-      padding-bottom: 12.5%;
-      padding-left: 5%;
-      padding-right: 5%;
-      border: 1px solid #ddd;
-      min-height: 269px;
+        background: #fafafa;
+        margin-top: -9%;
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 8%;
+        padding-bottom: 12.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        border: 1px solid #ddd;
+        min-height: 269px;
     }
     .testimonial-carousel .slide {
-      background: #0072BB !important;
-      color: black;
-      min-height: 700px !important;
-      padding: 3%;
+        background: #0072bb !important;
+        color: black;
+        min-height: 540px !important;
+        padding: 3%;
     }
-  
-  }
+}

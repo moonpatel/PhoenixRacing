@@ -1,9 +1,6 @@
 import React from 'react'
 import "./Sponsors.css"
 import Gallery from './Gallery'
-// import SlideLeft from './SlideLeft';
-// import SlideRight from './SlideRight';
-import Slider from './Slider';
 import brochure from '/brochure.pdf';
 import Connect from './connect';
 import { Helmet } from 'react-helmet';
@@ -12,10 +9,9 @@ const Sponsors = () => {
     const currentSponsors = [
         { url: 'sponsors/2023-24/20230116_Bender_LOGO_Yellow.png', title: 'Image 1' },
         { url: 'sponsors/2023-24/agni-logo.png', title: 'Image 2' },
-        { url: 'sponsors/2023-24/agni-logo.png', title: 'Image 3' },
-        { url: 'sponsors/2023-24/mathworks-logo-full-color-rgb.png', title: 'Image 4' },
-        { url: 'sponsors/2023-24/NIT_Surat_Logo.svg.png', title: 'Image 5' },
-        { url: "sponsors/2023-24/Prayosha Logo.png", title: "" },
+        { url: 'sponsors/2023-24/mathworks-logo-full-color-rgb.png', title: 'Image 3' },
+        { url: 'sponsors/2023-24/NIT_Surat_Logo.svg.png', title: 'Image 4' },
+        { url: "sponsors/2023-24/Prayosha Logo.png", title: "5" },
     ];
     const prevSponsors = [
         { url: "sponsors/past/apollo-tyres-logo.png", title: "" },

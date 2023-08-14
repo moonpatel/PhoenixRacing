@@ -97,13 +97,6 @@ const alumni2025 = [
     "text": "linkedin.com/in/akashrkolhe/"
   },
   {
-    "name": "Ayush Jain",
-    "image": "https://drive.google.com/uc?export=view&id=1nZ4oO7m8E-bnAIM1JXPylc9UtnXV_4P_",
-    "position": "Business Analyst",
-    "year": "2022",
-    "text": "https://www.linkedin.com/in/ayush-jain-a48291185"
-  },
-  {
     "name": "K Vamsi",
     "image": "https://drive.google.com/uc?export=view&id=1DWuipXCRx8ZBERBETBs8iW7EdWU82DCG",
     "position": "Student",
@@ -168,19 +161,26 @@ function CreateEntry(alum) {
   );
 }
 function Alumni() {
-  let [graduatingYear, changeYear] = React.useState("2023");
+  let [graduatingYear, changeYear] = React.useState(2023);
   const [filteredAlumni, setFilteredAlumni] = React.useState(
-    alumni2025.filter((alum) => alum.year === graduatingYear)
+    alumni2025.filter((alum) => alum.year === 2023)
   );
+  const limit = 2019;
   React.useEffect(() => {
-    let filteredData = alumni2025.filter((alum) => alum.year === graduatingYear);
-    setFilteredAlumni(filteredData);
+    if (graduatingYear == "other") {
+      let filteredData = alumni2025.filter(alum => alum.year < limit)
+      console.log(filteredData)
+      setFilteredAlumni(filteredData);
+    } else {
+      let filteredData = alumni2025.filter((alum) => parseInt(alum.year) === graduatingYear);
+      console.log(filteredData)
+      setFilteredAlumni(filteredData);
+    }
   }, [graduatingYear]);
 
   const handleButtonClick = (value) => {
     changeYear(value);
   };
-  console.log(graduatingYear);
   return (
     <div className="alumni-container">
       <div className="alumni-bar">
@@ -226,37 +226,29 @@ function Alumni() {
             2019
           </button>
           <button
-            value={2018}
+            value={"other"}
             onClick={() => {
-              handleButtonClick(2018);
+              handleButtonClick("other");
             }}
           >
-            2018
-          </button>
-          <button
-            value={2017}
-            onClick={() => {
-              handleButtonClick(2017);
-            }}
-          >
-            2017
+            Other
           </button>
         </div>
       </div>
       <h1>Alumni</h1>
       <div className="alumni-year">
-        {" "}
-        {filteredAlumni.length > 0 ? (
-          <div className="alumni-year-child">
-            <h2 className="gradyear">{graduatingYear}</h2>
-            {filteredAlumni.map(CreateEntry)}
-          </div>
-        ) : (
-          <div className="alumni-year-child">
-            <h2 className="alumni-gradyear">Over the Years</h2>
-            {alumni2025.filter(alumni => alumni.year == graduatingYear).map(CreateEntry)}
-          </div>
-        )}
+        <div className="alumni-year-child">
+          {
+            graduatingYear == "other"
+              ?
+              <h2 className="alumni-gradyear">Over the Years</h2>
+              :
+              <h2 className="alumni-gradyear">
+                {graduatingYear}
+              </h2>
+          }
+          {filteredAlumni.map(CreateEntry)}
+        </div>
       </div>
     </div>
   );

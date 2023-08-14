@@ -29,7 +29,7 @@ class Testimonials extends Component {
         infiniteLoop={true}
         showThumbs={false}
         showStatus={false}
-        autoPlay={true}
+        autoPlay={false}
         interval={6100}
         className="testimonial-carousel"
       >
