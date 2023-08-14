@@ -12,7 +12,7 @@ const testimonials = [
   }, {
     name: "Dr. Jyotirmay Banerjee",
     image: "image2.jpg",
-    position: "HOD, DoME",
+    position: "DoME",
     text: "Phoenix Racing is one of the oldest technical clubs of SVNIT- dedicated to technical activities associated with Automobile Engineering. The environment and bonding they create during their technical engagements encourage students to develop a blend of passion for innovation in allied areas of automobile engineering. The interaction also augments the all-round personality along with managerial skills of the team members. The club has proven its potential through years of hard work, and team members have come up with many innovations. I am hopeful that their future achievements will be even greater. Their recent venture towards electric vehicles will definitely help the mobility of the country in the future. Best wishes to the team for its future endeavors."
   }, {
     name: 'Shulabh Yadav',
