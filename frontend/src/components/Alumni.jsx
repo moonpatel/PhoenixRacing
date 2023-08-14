@@ -9,13 +9,15 @@ const alumni2025 = [
     "name": "Jignesh Barad",
     "image": "https://drive.google.com/uc?export=view&id=1mcbN-wP6UAqy1t2quf73JvC8Q3bpncWO",
     "position": "Assistant Manager",
+    "company":"Adani Total Gas Ltd",
     "year": "2022",
     "text": "https://www.linkedin.com/in/jignesh-barad-9424a71a6"
   },
   {
     "name": "Oorja Dorkar",
     "image": "https://drive.google.com/uc?export=view&id=1J8WGKxa27h93T7OWdr4GLrVBcYWXy3Gz",
-    "position": "Assistant Manager, Bajaj Auto",
+    "position": "Assistant Manager",
+    "company":"Bajaj Auto Limited",
     "year": "2022",
     "text": "https://www.linkedin.com/in/oorja-dorkar-04b365179"
   },
@@ -23,6 +25,7 @@ const alumni2025 = [
     "name": "Siddharthkumar B Zadafiya",
     "image": "https://drive.google.com/uc?export=view&id=13DoW_MMBRKiH_BnMyZmDCIxn0T9ENmKt",
     "position": "Executive Sr. Engineer",
+    "company":"Larsen & Toubro Defence ",
     "year": "2022",
     "text": "https://www.linkedin.com/in/siddharthkumarzadafiya/"
   },
@@ -30,6 +33,7 @@ const alumni2025 = [
     "name": "Savai Thakkar",
     "image": "https://drive.google.com/uc?export=view&id=1xVquIIZda7GCgm6m08aZkdRM19XYVEol",
     "position": "Pursuing MBA",
+    "company":"IIM Bangalore",
     "year": "2021",
     "text": "https://www.linkedin.com/in/savai-thakkar-921610176"
   },
@@ -44,6 +48,7 @@ const alumni2025 = [
     "name": "Hemish Gangajaliya",
     "image": "https://drive.google.com/uc?export=view&id=16rKrNnIDxx0djkAunh5b303r_2FwVzTA",
     "position": "Family Business",
+    "company":"Jay Agro Engineering ",
     "year": "2021",
     "text": ""
   },
@@ -51,6 +56,7 @@ const alumni2025 = [
     "name": "Mihir Panchal",
     "image": "https://drive.google.com/uc?export=view&id=1Z-hed2ZG6AE--vvRe_n_6MIISEI7dAjB",
     "position": "Job",
+    "company":"Bic cello pvt Ltd",
     "year": "2021",
     "text": "https://www.linkedin.com/in/mihir-panchal-693b40172"
   },
@@ -58,6 +64,7 @@ const alumni2025 = [
     "name": "Nikunj Hiteshkumar Dave",
     "image": "https://drive.google.com/uc?export=view&id=1s06QuwHiBb3y-zqD7YuRKEdd-dEQjqsk",
     "position": "Executive Trainee",
+    "company":"HMSI",
     "year": "2023",
     "text": "https://www.linkedin.com/in/nikunj9"
   },
@@ -65,6 +72,7 @@ const alumni2025 = [
     "name": "Kurvesh Darji",
     "image": "https://drive.google.com/uc?export=view&id=1zU4jTh5lZ9VSZ-bOSqDfA6bolps-sNq3",
     "position": "Msc Aerospace engineering.",
+    "company":"Technical university of Darmstadt",
     "year": "2021",
     "text": "https://www.linkedin.com/in/kurvesh-darji-a90b72179"
   },
@@ -72,13 +80,16 @@ const alumni2025 = [
     "name": "Tirth Lodhiya",
     "image": "https://drive.google.com/uc?export=view&id=1yCxmus87E-f783F2KRQairWLso3j5wnT",
     "position": "Job",
+    "company":"Bharat Electronics Ltd",
     "year": "2022",
+
     "text": "https://www.linkedin.com/in/lodhiyatirth"
   },
   {
     "name": "Ayush Jain",
     "image": "https://drive.google.com/uc?export=view&id=1ZufnEEOaXDmDkK62UzTH0mVP4vRF62y1",
     "position": "Business Analyst",
+    "company":"Effiya Technologies",
     "year": "2022",
     "text": "https://www.linkedin.com/in/ayush-jain-a48291185"
   },
@@ -86,6 +97,7 @@ const alumni2025 = [
     "name": "Jhalak Gandhi",
     "image": "https://drive.google.com/uc?export=view&id=11xhzhXPnUI8HERxH6qBuH0OeEzBke91W",
     "position": "Supply Chain Materials Engineer",
+    "company":"STAAR Surgical",
     "year": "2018",
     "text": "https://www.linkedin.com/in/jhalak-gandhi-701267123"
   },
@@ -93,20 +105,15 @@ const alumni2025 = [
     "name": "Akash Ravindra Kolhe",
     "image": "https://drive.google.com/uc?export=view&id=1VHHJm_Ajge8NkxczBlTrvAa_T4hOJFZ0",
     "position": "Mechanical Design Engineer",
+    "company":"Tesla",
     "year": "2020",
     "text": "linkedin.com/in/akashrkolhe/"
   },
   {
-    "name": "Ayush Jain",
-    "image": "https://drive.google.com/uc?export=view&id=1nZ4oO7m8E-bnAIM1JXPylc9UtnXV_4P_",
-    "position": "Business Analyst",
-    "year": "2022",
-    "text": "https://www.linkedin.com/in/ayush-jain-a48291185"
-  },
-  {
     "name": "K Vamsi",
     "image": "https://drive.google.com/uc?export=view&id=1DWuipXCRx8ZBERBETBs8iW7EdWU82DCG",
-    "position": "Student",
+    "position": "MTech-Robotics and Mobility Systems",
+    "company":"IIT JODHPUR ",
     "year": "2021",
     "text": ""
   },
@@ -114,6 +121,7 @@ const alumni2025 = [
     "name": "Shaan Polra",
     "image": "https://drive.google.com/uc?export=view&id=12B5HOqRHQUAFmkUGHF929cWhMw6WpSm1",
     "position": "Pursuing Master degree",
+    "company":"The University of Adelaide",
     "year": "2022",
     "text": "https://www.linkedin.com/in/shaan-polra/"
   },
@@ -121,6 +129,7 @@ const alumni2025 = [
     "name": "HANS RAJ PANWAR",
     "image": "https://drive.google.com/uc?export=view&id=1Iihjdv1iJGf5-nx-aQsRmRJSmVZYSh4Z",
     "position": "Manager- Automobile Manufacturing",
+    "company":"MG Motor India Pvt Ltd.",
     "year": "2018",
     "text": "https://www.linkedin.com/in/hans-raj-panwar-7a38221a9"
   },
@@ -128,6 +137,7 @@ const alumni2025 = [
     "name": "Daksharajsinh Jadeja",
     "image": "https://drive.google.com/uc?export=view&id=1ZcZ5WIR7BFMDd_D25av-ZGK5Z7zRyTdc",
     "position": "Job",
+    "company":"Maruti Suzuki India Limited",
     "year": "2018",
     "text": "https://www.linkedin.com/in/daksharaj-jadeja-56266315a/"
   },
@@ -135,6 +145,7 @@ const alumni2025 = [
     "name": "Arman Mansuri",
     "image": "https://drive.google.com/uc?export=view&id=16IFcRzDe0zYmTGdRWQaRvXDkrilRB8ut",
     "position": "Product Manager",
+    "company":"Couche Tard",
     "year": "2020",
     "text": "https://drive.google.com/uc?export=view&id=16IFcRzDe0zYmTGdRWQaRvXDkrilRB8ut"
   },
@@ -142,6 +153,7 @@ const alumni2025 = [
     "name": "Avnish Dholakiya",
     "image": "https://drive.google.com/uc?export=view&id=1tzJbLvLL4HUW4dZeMuL7V9o8KPOBLcGK",
     "position": "MT",
+    "company":"Pidilite Industries Ltd",
     "year": "2019",
     "text": "https://www.linkedin.com/in/avnish-dholakiya"
   },
@@ -149,6 +161,7 @@ const alumni2025 = [
     "name": "Amol Shinde",
     "image": "https://drive.google.com/uc?export=view&id=1PmG2xTH9ZB4ZQ6Ch98PqB-MNHNVKmxUG",
     "position": "Senior Manager",
+    "company":"Montra electric ",
     "year": "2017",
     "text": "https://www.linkedin.com/in/amol06shinde"
   }
@@ -162,6 +175,7 @@ function CreateEntry(alum) {
       key={alum.id}
       name={alum.name}
       position={alum.position}
+      company={alum.company}
       img={alum.image}
       url={alum.text}
     />
@@ -253,7 +267,7 @@ function Alumni() {
           </div>
         ) : (
           <div className="alumni-year-child">
-            <h2 className="alumni-gradyear">Over the Years</h2>
+            {/* <h2 className="alumni-gradyear">Over the Years</h2> */}
             {alumni2025.filter(alumni => alumni.year == graduatingYear).map(CreateEntry)}
           </div>
         )}
