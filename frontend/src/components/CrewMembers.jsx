@@ -213,160 +213,160 @@ const filterFunc = (position) => {
 const team2024 = [
   {
     name: "Harsh Patel",
-    image: "https://drive.google.com/uc?export=view&id=1B5SVHh8pDDxuZukRrALPY3Vzo77pmILK",
     position: "Captain",
+    image: "https://drive.google.com/uc?export=view&id=1B5SVHh8pDDxuZukRrALPY3Vzo77pmILK",
     text: "https://www.linkedin.com/in/harsh-patel-b43b81191"
   },
   {
     name: "Rushi Desai",
-    image: "https://drive.google.com/uc?export=view&id=1bylbQ1VGkMt8WGsCMY0UGd3lXZJCvA4X",
     position: "Vice-Captain",
+    image: "https://drive.google.com/uc?export=view&id=1bylbQ1VGkMt8WGsCMY0UGd3lXZJCvA4X",
     text: "https://www.linkedin.com/in/rushi-desai-4988001ba/"
   },
   {
     name: "Anish Shah",
-    image: "https://drive.google.com/uc?export=view&id=16IFcRzDe0zYmTGdRWQaRvXDkrilRB8ut",
     position: "Chairperson",
+    image: "https://drive.google.com/uc?export=view&id=16IFcRzDe0zYmTGdRWQaRvXDkrilRB8ut",
     text: "https://www.linkedin.com/in/2002-anish-shah"
   },
   {
     name: "Pooja Patel",
-    image: "https://drive.google.com/uc?export=view&id=1QaRGyaDrkCUQ7BsD5MbOD9ncCTrmO4eD",
     position: "Co-Chairperson",
+    image: "https://drive.google.com/uc?export=view&id=1QaRGyaDrkCUQ7BsD5MbOD9ncCTrmO4eD",
     text: "https://www.linkedin.com/in/pooja-patel-b08292217"
   },
   {
     name: "Arnav Vaghela",
-    image: "https://drive.google.com/uc?export=view&id=167cpNP=drivesdk",
     position: "Sponsorship and Procurement Head",
+    image: "https://drive.google.com/uc?export=view&id=167cpNP-6lNlJd9PIIrHdQQ_89R9eTwik",
     text: ""
   },
   {
     name: "Yatharth Kapadia",
-    image: "https://drive.google.com/uc?export=view&id=1YdjUHUpA3=drivesdk",
     position: "Treasurer",
+    image: "https://drive.google.com/uc?export=view&id=1YdjUHUpA3-74iJZs3W7SCGlUqONy8A5m",
     text: "https://www.linkedin.com/in/yatharth-kapadia-705784200"
   },
   {
     name: "Burhanuddin Lokhandwala",
-    image: "https://drive.google.com/uc?export=view&id=1CdIbyNoXN7IaT7t87K4xiTVphbmVtxCX",
     position: "Team Manager",
+    image: "https://drive.google.com/uc?export=view&id=1CdIbyNoXN7IaT7t87K4xiTVphbmVtxCX",
     text: "https://www.linkedin.com/in/burhanuddinlokhandwala04"
   },
   {
     name: "Janvi Gohil",
-    image: "https://drive.google.com/uc?export=view&id=1lIcQAnahIzDBM5hVLG=drivesdk",
     position: "Public Relations Head",
+    image: "https://drive.google.com/uc?export=view&id=1lIcQAnahIzDBM5hVLG-2unNjumQHhoAU",
     text: ""
   },
   {
     name: "Pratham Parmar",
-    image: "https://drive.google.com/uc?export=view&id=1QmOYrJ4vnejXjoLnntQbTBcTna7VyL1n",
     position: "Brakes Head",
+    image: "https://drive.google.com/uc?export=view&id=1QmOYrJ4vnejXjoLnntQbTBcTna7VyL1n",
     text: "https://www.linkedin.com/in/pratham-parmar-244022215"
   },
   {
     name: "Hardik Choudhary",
-    image: "https://drive.google.com/uc?export=view&id=1gJqr5Lzy3VULe=drivesdk",
     position: "Chassis Head",
+    image: "https://drive.google.com/uc?export=view&id=1gJqr5Lzy3VULe-J5MA65B3AtAy_9dX1W",
     text: "https://www.linkedin.com/in/hardik-choudhary-38524324a"
   },
   {
     name: "Alin Polra",
-    image: "https://drive.google.com/uc?export=view&id=11KJVzQc_UcdOVeG7NZoAHDy63dq2kwjn",
     position: "Electrical Head",
+    image: "https://drive.google.com/uc?export=view&id=11KJVzQc_UcdOVeG7NZoAHDy63dq2kwjn",
     text: ""
   },
   {
     name: "Parthiv Patel",
-    image: "https://drive.google.com/uc?export=view&id=1xyWyiheMq7oEBl0CSx=drivesdk",
     position: "Powertrain Head",
+    image: "https://drive.google.com/uc?export=view&id=1xyWyiheMq7oEBl0CSx-RO5LWBi1peWxk",
     text: ""
   },
   {
     name: "Pratham Sharma",
-    image: "https://drive.google.com/uc?export=view&id=1SbT9mv1BaGNsEaSzaBs4ZWe9pNxxokU6",
     position: "Powertrain Head",
+    image: "https://drive.google.com/uc?export=view&id=1SbT9mv1BaGNsEaSzaBs4ZWe9pNxxokU6",
     text: "https://www.linkedin.com/in/pratham-sharma-b8741024a?trk=contact-info"
   },
   {
     name: "Vansh Jogia",
-    image: "https://drive.google.com/uc?export=view&id=1vmm54KGoYS_Vh_qaYO9N_LHDGiRhZKYV",
     position: "Steering and Suspension Head",
+    image: "https://drive.google.com/uc?export=view&id=1vmm54KGoYS_Vh_qaYO9N_LHDGiRhZKYV",
     text: "https://www.linkedin.com/in/vansh-jogia-238773216"
   },
   {
     name: "S L Satyanarayana",
-    image: "https://drive.google.com/uc?export=view&id=1GEEjYLmVgipUqlKbIw8Aq6aQE5kbPObI",
     position: "Team Member",
+    image: "https://drive.google.com/uc?export=view&id=1GEEjYLmVgipUqlKbIw8Aq6aQE5kbPObI",
     text: "https://www.linkedin.com/in/slsatyanarayana"
   },
   {
     name: "Kartik Mohadarkar",
-    image: "https://drive.google.com/uc?export=view&id=1mNSsmEWfJVC4IkkL67lr=drivesdk",
     position: "Team Member",
+    image: "https://drive.google.com/uc?export=view&id=1mNSsmEWfJVC4IkkL67lr-U_xCbQO3lhP",
     text: "https://www.linkedin.com/in/kartik-m0390"
   },
   {
     name: "Nishit Prajapati",
-    image: "https://drive.google.com/uc?export=view&id=1VGpljkuHu_PQq52io1eUAG4IOPZWndlo",
     position: "Team Member",
+    image: "https://drive.google.com/uc?export=view&id=1VGpljkuHu_PQq52io1eUAG4IOPZWndlo",
     text: ""
   },
   {
     name: "Miit Chetan Pabari",
+    position: "Public Relations Head",
     image: "https://drive.google.com/uc?export=view&id=1z01wnGhZ4wDwlY8dzSbtycchOwXRAsOJ",
-    position: "Team Member",
     text: "www.linkedin.com/in/miit-pabari"
   },
   {
     name: "Aaditya Nimkar",
-    image: "https://drive.google.com/uc?export=view&id=1zpR1Hm9dJqYVubpU7Zth7Pms=drivesdk",
-    position: "Team Member",
+    position: "Team Member powertrain",
+    image: "https://drive.google.com/uc?export=view&id=1zpR1Hm9dJqYVubpU7Zth7Pms-j_7TECz",
     text: "www.linkedin.com/in/aaditya-nimkar-21424224a"
   },
   {
     name: "Vishwa Menpara",
+    position: "Team Member chassis",
     image: "https://drive.google.com/uc?export=view&id=14LMU03P34ZE6Aa4HA9smcorDUlIY3LYj",
-    position: "Team Member",
     text: "https://www.linkedin.com/in/vishwa-menpara"
   },
   {
     name: "Adarsh Kataktalware",
-    image: "https://drive.google.com/uc?export=view&id=1d_zPYMYHMsYSSxqqicHvQvhFr9jQ=drivesdk",
-    position: "Team Member",
+    position: "Team Member brakes",
+    image: "https://drive.google.com/uc?export=view&id=1d_zPYMYHMsYSSxqqicHvQvhFr9jQ-SqW",
     text: "https://www.linkedin.com/in/adarsh-kataktalware-0803a8243"
   },
   {
     name: "A. Hemanth Kumar",
+    position: "Team Member sns",
     image: "https://drive.google.com/uc?export=view&id=1DwMvdtuH4gOfvk3LYPHVEd7XleDNBEwJ",
-    position: "Team Member",
     text: ""
   },
   {
     name: "Nayan Lakade",
-    image: "https://drive.google.com/uc?export=view&id=1nkdilWT5TkgLJU1DYn=drivesdk",
-    position: "Team Member",
+    position: "Team Member sns",
+    image: "https://drive.google.com/uc?export=view&id=1nkdilWT5TkgLJU1DYn-rpt4xQtB0W4hE",
     text: "https://www.linkedin.com/in/nayan-lakade-34279a1bb"
   },
   {
     name: "Kunal Gupta",
+    position: "Team Member powertrain",
     image: "https://drive.google.com/uc?export=view&id=1z01wnGhZ4wDwlY8dzSbtycchOwXRAsOJ",
-    position: "Team Member",
     text: ""
   },
   {
     name: "Shrujal Zala",
+    position: "Team Member sns",
     image: "https://drive.google.com/uc?export=view&id=1acT36ZuFVnw_i5fbGPnvbw03TmJNxTRG",
-    position: "Team Member",
     text: "www.linkedin.com/in/shrujal-zala-a20887201"
   },
   {
     name: "Dhruv Chudasuma",
+    position: "Team Member chassis",
     image: "https://drive.google.com/uc?export=view&id=1xeMpUnhGfyay1SewAxrNQ7ApbfGndblb",
-    position: "Team Member",
     text: "https://www.linkedin.com/in/dhruv-chudasma-64828121b"
-  }
+  },
 ];
 
 
