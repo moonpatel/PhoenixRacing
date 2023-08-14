@@ -1,12 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faFacebookF, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faFacebookF, faInstagram, faYoutube, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import './Footer.css'
 
 export default function Footer() {
-  const phoneNumber = '123-456-7890';
+  const phoneNumber = '+918000770080';
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <MDBContainer className='text-center text-md-start mt-5'>
@@ -43,16 +43,16 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faEnvelope} className='me-3' size='lg' />
                 <a href="mailto:sae@svnit.ac.in">Email Us</a>
               </p>
-              {/* <p className='d-flex justify-content-center justify-content-md-start align-items-center'>
+              <p className='d-flex justify-content-center justify-content-md-start align-items-center'>
                 <FontAwesomeIcon icon={faPhone} className='me-3' size='lg'/>
-                <a href={`tel:${phoneNumber}`}>Call Us</a>
-              </p> */}
+                <a href={`tel:${phoneNumber}`}>Call Us at {phoneNumber}</a>
+              </p>
               <p className='d-flex justify-content-center align-items-center mt-5 flex-wrap'>
                 <a href='https://www.facebook.com/phoenixracing360/'>
                   <FontAwesomeIcon icon={faFacebookF} className='me-4 p-1' size='xl' />
                 </a>
                 <a href='https://twitter.com/FSAE_SVNIT?t=_JRs_ZVsIR2E6LqcC66ZBw&s=08'>
-                  <FontAwesomeIcon icon={faTwitter} className='me-4 p-1' size='xl' />
+                  <FontAwesomeIcon icon={faXTwitter} className='me-4 p-1' size='xl' />
                 </a>
                 <a href='https://www.instagram.com/phoenixracing.sae/'>
                   <FontAwesomeIcon icon={faInstagram} className='me-4 p-1' size='xl' />

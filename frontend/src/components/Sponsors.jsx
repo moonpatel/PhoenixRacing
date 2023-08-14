@@ -12,40 +12,28 @@ const Sponsors = () => {
     const currentSponsors = [
         { url: 'sponsors/2023-24/20230116_Bender_LOGO_Yellow.png', title: 'Image 1' },
         { url: 'sponsors/2023-24/agni-logo.png', title: 'Image 2' },
-        { url: 'sponsors/2023-24/agni-logo.png', title: 'Image 3' },
+        { url: 'sponsors/2023-24/ansys.png', title: 'Image 3' },
         { url: 'sponsors/2023-24/mathworks-logo-full-color-rgb.png', title: 'Image 4' },
         { url: 'sponsors/2023-24/NIT_Surat_Logo.svg.png', title: 'Image 5' },
         { url: "sponsors/2023-24/Prayosha Logo.png", title: "" },
     ];
     const prevSponsors = [
-        { url: "sponsors/past/apollo-tyres-logo.png", title: "" },
-        { url: "frontend/public/sponsors/past/canera bank.png", title: "" },
-        { url: "sponsors/past/ceat-removebg-preview.png", title: "" },
-        { url: "sponsors/past/GCST-removebg-preview.png", title: "" },
-        { url: "sponsors/past/godrej-remove.png", title: "" },
-        { url: "sponsors/past/Indian-Oil-Emblem.png", title: "" },
-        { url: "sponsors/past/JK-Tyre-logo-PNG-Transparent.png", title: "" },
-        { url: "sponsors/past/ktm-removebg-preview.png", title: "" },
-        { url: "sponsors/past/mahindra-removebg-preview.png", title: "" },
-        { url: "sponsors/past/OYO_Rooms_(logo).png", title: "" },
-        { url: "sponsors/past/sopan-removebg-preview.png", title: "" },
-        { url: "sponsors/past/tata-motors-logo-3.png", title: "" },
-        { url: "sponsors/past/toyota-removebg-preview.png", title: "" },
-    ]
-    const link = [
-    "https://shop.apollotyres.com/",
-    "https://canarabank.com/",
-    "https://www.ceat.com/",
-"https://www.godrej.com/",
-"https://gujcost.gujarat.gov.in/",
-"https://iocl.com/",
-"https://www.jktyre.com/",
-"https://www.ktm.com/",
-"https://www.mahindra.com/",
-"https://www.oyorooms.com/",
-"https://sied.in/",
-"https://www.tata.com/home-page",
-"https://www.toyotabharat.com/ ",
+
+        { url: "sponsors/past/apollo-tyres-logo.png", title: "", link:"https://shop.apollotyres.com/"},
+        { url: "sponsors/past/canerabank.png", title: "" , link:"https://canarabank.com/"},
+        { url: "sponsors/past/ceat.png", title: "" , link:"https://www.ceat.com/"},
+        { url: "sponsors/past/GCST.png", title: "" , link:"https://gujcost.gujarat.gov.in/"},
+        { url: "sponsors/past/godrej.png", title: "", link:"https://www.godrej.com/" },
+        { url: "sponsors/past/Indian-Oil-Emblem.png", title: "" , link:"https://iocl.com/"},
+        { url: "sponsors/past/JK-Tyre-logo-PNG-Transparent.png", title: "" , link:"https://www.jktyre.com/"},
+        { url: "sponsors/past/ktm.png", title: "" , link:"https://www.ktm.com/"},
+        { url: "sponsors/past/mahindra.png", title: "" , link:"https://www.mahindra.com/"},
+        { url: "sponsors/past/OYO_Rooms_(logo).png", title: "" , link:"https://www.oyorooms.com/"},
+        { url: "sponsors/past/sopan.png", title: "" , link:"https://sied.in/"},
+        { url: "sponsors/past/tata-motors-logo-3.png", title: "" , link:"https://www.tata.com/home-page"},
+        { url: "sponsors/past/toyota.png", title: "" , link:"https://www.toyotabharat.com/"},
+
+
     ]
     return (
         <div className='sponsor'>

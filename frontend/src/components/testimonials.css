@@ -1,13 +1,13 @@
 .testimonial-carousel-root {
     width: 64% !important;
     margin: auto !important;
-    margin-top: 3% !important;
+    margin-top: 5% !important;
   }
   
   .testimonial-carousel .slide {
     background: #0072BB !important;
     color: black;
-    min-height: 500px !important;
+    min-height: 300px !important;
     padding: 3%;
   }
   
@@ -64,7 +64,7 @@
     font-weight: 400 !important;
     line-height: 29px !important;
     color: var(--white);
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Raleway', sans-serif;
     max-height: 67px;
   }
@@ -103,7 +103,7 @@
     text-align: center;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     .testimonial-carousel-root {
       outline: 0;
       width: 93% !important;
@@ -129,8 +129,25 @@
     .testimonial-carousel .slide {
       background: #0072BB !important;
       color: black;
-      min-height: 700px !important;
+      min-height: 400px !important;
       padding: 3%;
     }
-  
+    .test-Carousel {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .test-Carousel p{
+      font-size: 12px;
+    }
   }
+
+  @media screen and (max-width: 768px) and (min-width: 500px) {
+  .testimonial-carousel .slide {
+    background: #0072BB !important;
+    color: black;
+    min-height: 400px !important;
+    padding: 3%;
+  }
+ }
