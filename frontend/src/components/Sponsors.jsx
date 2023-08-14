@@ -32,6 +32,21 @@ const Sponsors = () => {
         { url: "sponsors/past/tata-motors-logo-3.png", title: "" },
         { url: "sponsors/past/toyota-removebg-preview.png", title: "" },
     ]
+    const link = [
+    "https://shop.apollotyres.com/",
+    "https://canarabank.com/",
+    "https://www.ceat.com/",
+"https://www.godrej.com/",
+"https://gujcost.gujarat.gov.in/",
+"https://iocl.com/",
+"https://www.jktyre.com/",
+"https://www.ktm.com/",
+"https://www.mahindra.com/",
+"https://www.oyorooms.com/",
+"https://sied.in/",
+"https://www.tata.com/home-page",
+"https://www.toyotabharat.com/ ",
+    ]
     return (
         <div className='sponsor'>
             <Helmet>
@@ -56,7 +71,7 @@ const Sponsors = () => {
             </div>
             <div className='prev'>
                 <h1>Previous Sponsors</h1>
-               <Gallery images={prevSponsors} />
+               <a href={link}>  <Gallery images={prevSponsors} /></a>
             </div>
             <div className="sponsor-btn">
                 <Connect title="Interested in sponsoring us?" btnName="Contact Us" />
