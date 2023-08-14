@@ -18,6 +18,7 @@ const Sponsors = () => {
         { url: "sponsors/2023-24/Prayosha Logo.png", title: "" },
     ];
     const prevSponsors = [
+
         { url: "sponsors/past/apollo-tyres-logo.png", title: "", link:"https://shop.apollotyres.com/"},
         { url: "sponsors/past/canerabank.png", title: "" , link:"https://canarabank.com/"},
         { url: "sponsors/past/ceat.png", title: "" , link:"https://www.ceat.com/"},
@@ -31,6 +32,8 @@ const Sponsors = () => {
         { url: "sponsors/past/sopan.png", title: "" , link:"https://sied.in/"},
         { url: "sponsors/past/tata-motors-logo-3.png", title: "" , link:"https://www.tata.com/home-page"},
         { url: "sponsors/past/toyota.png", title: "" , link:"https://www.toyotabharat.com/"},
+
+
     ]
     return (
         <div className='sponsor'>
@@ -56,13 +59,13 @@ const Sponsors = () => {
             </div>
             <div className='prev'>
                 <h1>Previous Sponsors</h1>
-                <Gallery images={prevSponsors} />
+               <a href={link}>  <Gallery images={prevSponsors} /></a>
             </div>
             <div className="sponsor-btn">
                 <Connect title="Interested in sponsoring us?" btnName="Contact Us" />
             </div>
             <div className="brochure-btn">
-                <a href={brochure} download="Brochure">View Brochure</a>
+                <a href={brochure} target='__blank'>View Brochure</a>
             </div>
         </div>
     )
