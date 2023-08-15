@@ -928,10 +928,9 @@ const CrewMembers = () => {
         </div>
         <div className='black-light-line' />
         <div className='web-member'>
-          
           <h1>Khushi Patel</h1>
-          <a href='https://www.linkedin.com/in/khushi-patel-89304b256'></a>  
-            <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
+          <a href='https://www.linkedin.com/in/khushi-patel-89304b256/'>  
+            <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' /></a>
         </div>
         <div className='black-light-line' />
         <div className='web-member'>
