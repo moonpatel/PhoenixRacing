@@ -15,7 +15,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('upcoming_events_images/PR_cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/upcoming_events_images/PR_cover.jpg');
 }
 
 .news-hero {
