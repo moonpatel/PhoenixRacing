@@ -9,7 +9,8 @@ import { useSearchParams } from 'react-router-dom';
 const team2025 = [
   {
     name: "Piyush S Bhuriya",
-    image: "https://drive.google.com/uc?export=view&id=1ugGZazTstsAO5EyRl3OED6YcF5E8CBWL",
+    // image: "https://drive.google.com/uc?export=view&id=1ugGZazTstsAO5EyRl3OED6YcF5E8CBWL",
+    image: "/team/2025/PIYUSH S BHURIYA SVNIT.jpg",
     position: "Head",
     department: "Brakes",
     section: "technical",
@@ -18,7 +19,8 @@ const team2025 = [
 
   {
     name: "Meha Virendra Patel",
-    image: "https://drive.google.com/uc?export=view&id=1FLQTLkAxONtML6BlEUyNTkS_w4z5Lkwq",
+    // image: "https://drive.google.com/uc?export=view&id=1FLQTLkAxONtML6BlEUyNTkS_w4z5Lkwq",
+    image: "/team/2025/PATEL MEHA VIRENDRA SVNIT.jpg",
     position: "Head",
     department: "Sns",
     section: "technical",
@@ -26,7 +28,8 @@ const team2025 = [
   },
   {
     name: "Jay Pokal",
-    image: "https://drive.google.com/uc?export=view&id=189my4btV-V6vX3Y7AxyfkNb6VP1FOa0n",
+    // image: "https://drive.google.com/uc?export=view&id=189my4btV-V6vX3Y7AxyfkNb6VP1FOa0n",
+    image: "/team/2025/jay pokal.png",
     position: "Head",
     department: "Powertrain",
     section: "technical",
@@ -34,7 +37,8 @@ const team2025 = [
   },
   {
     name: "Amit B Mahiya",
-    image: "https://drive.google.com/uc?export=view&id=1obIRj3CNrSvs5E-6odUuckKkF3FZHBug",
+    // image: "https://drive.google.com/uc?export=view&id=1obIRj3CNrSvs5E-6odUuckKkF3FZHBug",
+    image: "/team/2025/Amit Mahiya.jpg",
     position: "Head",
     department: "Electrical",
     section: "technical",
@@ -42,7 +46,8 @@ const team2025 = [
   },
   {
     name: "Mihir Pandor",
-    image: "https://drive.google.com/uc?export=view&id=1a1tcDqZMKyHGUl3NMoE7fSKVU0v_uFsM",
+    // image: "https://drive.google.com/uc?export=view&id=1a1tcDqZMKyHGUl3NMoE7fSKVU0v_uFsM",
+    image: "/team/2025/MIHIR PANDOR SVNIT.jpg",
     position: "Head",
     department: "Chasis",
     section: "technical",
@@ -51,7 +56,8 @@ const team2025 = [
 
   {
     name: "Yash Katare",
-    image: "https://drive.google.com/uc?export=view&id=15dlfNeNds7LLckHLHbQ6QPuDY0j_2THU",
+    // image: "https://drive.google.com/uc?export=view&id=15dlfNeNds7LLckHLHbQ6QPuDY0j_2THU",
+    image: "/team/2025/YASH KATARE.jpg",
     position: "Team Member",
     department: "Sns",
     section: "technical",
@@ -60,7 +66,8 @@ const team2025 = [
   },
   {
     name: "Abhinav Gupta",
-    image: "https://drive.google.com/uc?export=view&id=1YKX2OMHrlquW0yrj_ytswyQCFKzQ0k7t",
+    // image: "https://drive.google.com/uc?export=view&id=1YKX2OMHrlquW0yrj_ytswyQCFKzQ0k7t",
+    image: "/team/2025/Abhinav Gupta.jpg",
     position: "Team Member",
     department: "Sns",
     section: "technical",
@@ -69,7 +76,8 @@ const team2025 = [
   },
   {
     name: "Puneet Suvarna",
-    image: "https://drive.google.com/uc?export=view&id=1w8iMIZRBEvhRf3y_TQqJu88AUjGkePrP",
+    // image: "https://drive.google.com/uc?export=view&id=1w8iMIZRBEvhRf3y_TQqJu88AUjGkePrP",
+    image: "/team/2025/SUVARNA PUNEET SURESH SVNIT.jpg",
     position: "Team Member",
     department: "Chasis",
     section: "technical",
@@ -78,7 +86,8 @@ const team2025 = [
   },
   {
     name: "Hemang Kokate",
-    image: "https://drive.google.com/uc?export=view&id=1ZDxH7E5qersH-C1R1zYQq-s_u6KGvn19",
+    // image: "https://drive.google.com/uc?export=view&id=1ZDxH7E5qersH-C1R1zYQq-s_u6KGvn19",
+    image: "/team/2025/KOKATE HEMANG MAKARAND SVNIT.jpg",
     position: "Team Member",
     department: "Electrical",
     section: "technical",
@@ -89,7 +98,8 @@ const team2025 = [
 
   {
     name: "Dakshraj Parmar",
-    image: "https://drive.google.com/uc?export=view&id=16hzmsFw-_dmQJ4I_Q4fPYfwaYtgg81aY",
+    // image: "https://drive.google.com/uc?export=view&id=16hzmsFw-_dmQJ4I_Q4fPYfwaYtgg81aY",
+    image: "/team/2025/DAKSHRAJ PARMAR SVNIT.jpg",
     position: "Team Member",
     department: "Electrical",
     section: "managerial",
@@ -98,7 +108,8 @@ const team2025 = [
   },
   {
     name: "Niraj Kalwani",
-    image: "https://drive.google.com/uc?export=view&id=1QCWVvYEYttE5_Y5FyvYP6K7x3AZroyfg",
+    // image: "https://drive.google.com/uc?export=view&id=1QCWVvYEYttE5_Y5FyvYP6K7x3AZroyfg",
+    image: "/team/2025/Niraj Kalwani.jpg",
     position: "Team Member",
     department: "Powertrain",
     section: "managerial",
@@ -107,7 +118,8 @@ const team2025 = [
   },
   {
     name: "Niteesh J",
-    image: "https://drive.google.com/uc?export=view&id=1k1GTxIQ-4G7pwr1ya4WjLRf1FGE7ztUh",
+    // image: "https://drive.google.com/uc?export=view&id=1k1GTxIQ-4G7pwr1ya4WjLRf1FGE7ztUh",
+    image: "/team/2025/NITEESH J SVNIT.jpg",
     position: "Team Member",
     department: "Sns",
     section: "managerial",
@@ -117,7 +129,8 @@ const team2025 = [
 
   {
     name: "Devam Vadher",
-    image: "https://drive.google.com/uc?export=view&id=1M7AT4Fnhbx37hC428vEKceo7PKQR3OyN",
+    // image: "https://drive.google.com/uc?export=view&id=1M7AT4Fnhbx37hC428vEKceo7PKQR3OyN",
+    image: "/team/2025/DEVAM JAYENDRA VADHER SVNIT.jpg",
     position: "Team Member",
     department: "Electrical",
     section: "managerial",
@@ -126,7 +139,8 @@ const team2025 = [
   },
   {
     name: "Siddharth Bharad",
-    image: "https://drive.google.com/uc?export=view&id=1q9XSifjTgXtFcIQz1jNFrjamnQYEkWa4",
+    // image: "https://drive.google.com/uc?export=view&id=1q9XSifjTgXtFcIQz1jNFrjamnQYEkWa4",
+    image: "/team/2025/Siddharth Bharad.jpg",
     position: "Team Member",
     department: "Powertrain",
     section: "managerial",
@@ -135,7 +149,8 @@ const team2025 = [
   },
   {
     name: "Vidhi Prakashbhai Patel",
-    image: "https://drive.google.com/uc?export=view&id=10U9k-MjKCRtM1lW17BH_M3BCxbtX0-it",
+    // image: "https://drive.google.com/uc?export=view&id=10U9k-MjKCRtM1lW17BH_M3BCxbtX0-it",
+    image: "/team/2025/Vidhi Patel.jpg",
     position: "Team Member",
     department: "Sns",
     section: "managerial",
@@ -150,7 +165,8 @@ const team2025 = [
 
   {
     name: "Vamshi",
-    image: "https://drive.google.com/uc?export=view&id=1V_ewWCE66kfIygFry2S7SslRS8DcVxp_",
+    // image: "https://drive.google.com/uc?export=view&id=1V_ewWCE66kfIygFry2S7SslRS8DcVxp_",
+    image: "/team/2025/LAVUDYA VAMSHI SVNIT.jpg",
     position: "Team Member",
     department: "Brakes",
     text: "https://www.linkedin.com/in/vamshi-lavudya-744190230"
@@ -158,28 +174,32 @@ const team2025 = [
 
   {
     name: "Prithish Panchal",
-    image: "https://drive.google.com/uc?export=view&id=1qy5Sox5G4sAiroiwTP8dPkw8UdAGJXas",
+    // image: "https://drive.google.com/uc?export=view&id=1qy5Sox5G4sAiroiwTP8dPkw8UdAGJXas",
+    image: "/team/2025/Prithish Panchal.jpg",
     position: "Team Member",
     department: "Powertrain",
     text: "https://www.linkedin.com/in/prithish-panchal-06339921a"
   },
   {
     name: "JAYESH PATIL",
-    image: "https://drive.google.com/uc?export=view&id=1-bG_DEO7aoIL3AWDCLz2JmGOKJ-vPi71",
+    // image: "https://drive.google.com/uc?export=view&id=1-bG_DEO7aoIL3AWDCLz2JmGOKJ-vPi71",
+    image: "/team/2025/PATIL JAYESH RAMKRUSHN SVNIT.jpg",
     position: "Team Member",
     department: "Powertrain",
     text: "https://www.linkedin.com/in/jayesh-patil-495b01221"
   },
   {
     name: "Jaykumar Gohel",
-    image: "https://drive.google.com/uc?export=view&id=1uYyjYg52oyMzNXLGkvhsVBiWp80pLD2m",
+    // image: "https://drive.google.com/uc?export=view&id=1uYyjYg52oyMzNXLGkvhsVBiWp80pLD2m",
+    image: "/team/2025/JAYKUMAR GOHEL SVNIT.jpg",
     position: "Team Member",
     department: "Electrical",
     text: "https://www.linkedin.com/in/jay-gohel-85a1a0254"
   },
   {
     name: "Behera Nitish",
-    image: "https://drive.google.com/uc?export=view&id=1TZ4ffezhJKzDzGOs7Yy_oj1ddjJt7Sov",
+    // image: "https://drive.google.com/uc?export=view&id=1TZ4ffezhJKzDzGOs7Yy_oj1ddjJt7Sov",
+    image: "/team/2025/BEHERA NITISHKUMAR NALINIBHAI SVNIT.jpg",
     position: "Team Member",
     department: "Power Train",
     text: "https://www.linkedin.com/in/nitish-behera-9a9423261"
@@ -187,7 +207,8 @@ const team2025 = [
 
   {
     name: "Jayesh Kailash Patil",
-    image: "https://drive.google.com/uc?export=view&id=1wBgqXBZjys8gyv5d81Hng-L0G_Qlnq5H",
+    // image: "https://drive.google.com/uc?export=view&id=1wBgqXBZjys8gyv5d81Hng-L0G_Qlnq5H",
+    image: "/team/2025/Patil Jayesh Kailash SVNIT.jpg",
     position: "Team Member",
     department: "Powertrain",
     text: "https://www.linkedin.com/in/jayesh-patil-57b18b260"
@@ -195,7 +216,8 @@ const team2025 = [
 
   {
     name: "Pulkit Garhwal",
-    image: "https://drive.google.com/uc?export=view&id=1n_IBTHVJNGQVberEf-PL9TCRCcUXeHeF",
+    // image: "https://drive.google.com/uc?export=view&id=1n_IBTHVJNGQVberEf-PL9TCRCcUXeHeF",
+    image: "/team/2025/PULKIT GARHWAL SVNIT.jpeg",
     position: "Team Member",
     department: "Sns",
     text: "https://www.linkedin.com/in/pulkit-garhwal-b77416277"
@@ -204,7 +226,8 @@ const team2025 = [
 
   {
     name: "Abhishek Pandya",
-    image: "https://drive.google.com/uc?export=view&id=1Adt0CFhIwQXUv9BT4dk8n3hw5ZdRD2ts",
+    // image: "https://drive.google.com/uc?export=view&id=1Adt0CFhIwQXUv9BT4dk8n3hw5ZdRD2ts",
+    image: "/team/2025/Abhi - PANDYA ABHISHEK GIRISHBHAI SVNIT.jpg",
     position: "Team Member",
     department: "Brakes",
     text: "https://www.linkedin.com/in/abhishek-pandya-016083277/"
@@ -213,21 +236,24 @@ const team2025 = [
 
   {
     name: "Durga syamanth",
-    image: "https://drive.google.com/uc?export=view&id=1IYy5X9R3DAgoPKJKsbUxAxYHXsM25bMe",
+    // image: "https://drive.google.com/uc?export=view&id=1IYy5X9R3DAgoPKJKsbUxAxYHXsM25bMe",
+    image: "/team/2025/durga Syamanth.jpg",
     position: "Team Member",
     department: "Sns",
     text: "https://www.linkedin.com/in/akurathi-durga-syamanth-658062277"
   },
   {
     name: "Vishnu sai Kummari",
-    image: "https://drive.google.com/uc?export=view&id=10eCMPEKWVUYlkOnRh_I1Ykud3_rUayoZ",
+    // image: "https://drive.google.com/uc?export=view&id=10eCMPEKWVUYlkOnRh_I1Ykud3_rUayoZ",
+    image: "/team/2025/K Vishnu Sai.jpg",
     position: "Team Member",
     department: "Electrical",
     text: "https://www.linkedin.com/in/k-vishnu-sai-b1a767248"
   },
   {
     name: "Rishabh Gondane",
-    image: "https://drive.google.com/uc?export=view&id=1327v6OWUY1nCBLruOqHvRCrQEzICyB7p",
+    // image: "https://drive.google.com/uc?export=view&id=1327v6OWUY1nCBLruOqHvRCrQEzICyB7p",
+    image: "/team/2025/GONDANE RISHABH CHANDRAKANT SVNIT.jpg",
     position: "Team Member",
     department: "Brakes",
     text: "https://www.linkedin.com/in/rishabh-gondane-59a805249"
@@ -235,14 +261,16 @@ const team2025 = [
 
   {
     name: "Priyanshu Singh",
-    image: "https://drive.google.com/uc?export=view&id=1yAp4byaS5wk7eFAoZurJK847Ze3J1ko1",
+    // image: "https://drive.google.com/uc?export=view&id=1yAp4byaS5wk7eFAoZurJK847Ze3J1ko1",
+    image: "/team/2025/Priyanshu singh.jpg",
     position: "Team Member",
     department: "Sns",
     text: "https://www.linkedin.com/in/priyanshu-singh-7aa6aa1b4/"
   },
   {
     name: "Shrey Shalan",
-    image: "https://drive.google.com/uc?export=view&id=1zcQxo6yhPOGAGN_JAq1V-Zrdvgf4c0R1",
+    // image: "https://drive.google.com/uc?export=view&id=1zcQxo6yhPOGAGN_JAq1V-Zrdvgf4c0R1",
+    image: "/team/2025/SHREY SHALAN SVNIT.png",
     position: "Team Member",
     department: "Electrical",
     text: "https://www.linkedin.com/in/shrey-shalan-97565a244"
@@ -252,7 +280,8 @@ const team2025 = [
 
   {
     name: "Shivaram S",
-    image: "https://drive.google.com/uc?export=view&id=1KN-sY7hnxrrhLSkLbVWtKC2Jk-e2ACaZ",
+    // image: "https://drive.google.com/uc?export=view&id=1KN-sY7hnxrrhLSkLbVWtKC2Jk-e2ACaZ",
+    image: "/team/2025/S SHIVARAM SVNIT.JPG",
     position: "Team Member",
     department: "Sns",
     text: "www.linkedin.com/in/shivaram-s-633aa3268"

@@ -6,7 +6,7 @@ import './CrewCard.css';
 const CrewCard = ({ name, image, text, position, sectionPosition }) => {
   return (
     <div className='crew-card'>
-      <div className="img-content" style={{ backgroundImage: `url(${image})` }}>
+      <div className="img-content" style={{ backgroundImage: `url('${image}')` }}>
         {/* <img className='profile' src={image} alt='Crew Profile' /> */}
       </div>
       <div className="txt-content">
