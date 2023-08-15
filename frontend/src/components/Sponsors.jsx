@@ -15,6 +15,7 @@ const Sponsors = () => {
         { url: "sponsors/2023-24/Prayosha Logo.png", title: "", link: "http://www.prayoshagroup.in/" },
     ];
     const prevSponsors = [
+
         { url: "sponsors/past/apollo-tyres-logo.png", title: "", link: "https://shop.apollotyres.com/" },
         { url: "sponsors/past/canerabank.png", title: "", link: "https://canarabank.com/" },
         { url: "sponsors/past/ceat.png", title: "", link: "https://www.ceat.com/" },
@@ -28,6 +29,8 @@ const Sponsors = () => {
         { url: "sponsors/past/sopan.png", title: "", link: "https://sied.in/" },
         { url: "sponsors/past/tata-motors-logo-3.png", title: "", link: "https://www.tata.com/home-page" },
         { url: "sponsors/past/toyota.png", title: "", link: "https://www.toyotabharat.com/" },
+
+
     ]
     return (
         <div className='sponsor'>
