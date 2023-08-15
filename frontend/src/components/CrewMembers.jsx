@@ -562,7 +562,7 @@ const CrewMembers = () => {
         <div className='black-light-line' />
         <div className='web-member'>
           <h1>Yatra Vaghasia</h1>
-          <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
+          <a href='https://www.linkedin.com/in/yatravaghasia/'>
             <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
           </a>
         </div>
