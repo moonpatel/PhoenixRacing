@@ -95,7 +95,7 @@ const Hero = () => {
     return (
         <div className="home-section">
             <div className="home-title">
-                <div className="home-header1">Phoenix</div>
+                <div className="home-header1">SAE Phoenix</div>
                 <div className="home-header2">Racing</div>
                 {/* <AnchorLink href='#go-to-abt' className="abt-link"><VideoOverlay /></AnchorLink> */}
                 <a href="#" className="abt-link" onClick={scrollToSection}>

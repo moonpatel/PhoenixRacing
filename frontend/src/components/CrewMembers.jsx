@@ -921,29 +921,29 @@ const CrewMembers = () => {
         <h1 className='team-heading'>Web Development</h1>
         <div className='black-line'></div>
         <div className='web-member'>
-          <h1>Abhishek</h1>
-          <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
+        <h1>Moon Patel</h1>
+          <a href='https://www.linkedin.com/in/moon-patel/'>
             <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
           </a>
         </div>
         <div className='black-light-line' />
         <div className='web-member'>
+          
           <h1>Khushi Patel</h1>
-          <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
+          <a href='https://www.linkedin.com/in/khushi-patel-89304b256'></a>  
             <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
-          </a>
-        </div>
-        <div className='black-light-line' />
-        <div className='web-member'>
-          <h1>Moon Patel</h1>
-          <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
-            <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
-          </a>
         </div>
         <div className='black-light-line' />
         <div className='web-member'>
           <h1>Tejo Kaushal</h1>
-          <a href='https://getbootstrap.com/docs/5.0/utilities/flex/'>
+          <a href='https://www.linkedin.com/in/tejo-kaushal-4a32b5256/'>
+            <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
+          </a>
+        </div>
+        <div className='black-light-line' />
+        <div className='web-member'>
+          <h1>Abhishek</h1>
+          <a href='https://www.linkedin.com/in/abhishek-kumar-068720250'>
             <FontAwesomeIcon icon={faLinkedinIn} className='me-4' size='xl' />
           </a>
         </div>
