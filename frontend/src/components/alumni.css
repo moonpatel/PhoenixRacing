@@ -116,7 +116,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .alumni-bar button:hover {
     background-color: #0072bb;

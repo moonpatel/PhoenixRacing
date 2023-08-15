@@ -44,7 +44,7 @@ export default function Footer() {
                 <a href="mailto:sae@svnit.ac.in">Email Us</a>
               </p>
               <p className='d-flex justify-content-center justify-content-md-start align-items-center'>
-                <FontAwesomeIcon icon={faPhone} className='me-3' size='lg'/>
+                <FontAwesomeIcon icon={faPhone} className='me-3' size='lg' />
                 <a href={`tel:${phoneNumber}`}>Call Us at {phoneNumber}</a>
               </p>
               <p className='d-flex justify-content-center align-items-center mt-5 flex-wrap'>

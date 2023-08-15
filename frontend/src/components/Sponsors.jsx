@@ -1,9 +1,6 @@
 import React from 'react'
 import "./Sponsors.css"
 import Gallery from './Gallery'
-// import SlideLeft from './SlideLeft';
-// import SlideRight from './SlideRight';
-import Slider from './Slider';
 import brochure from '/brochure.pdf';
 import Connect from './connect';
 import { Helmet } from 'react-helmet';
@@ -18,22 +15,19 @@ const Sponsors = () => {
         { url: "sponsors/2023-24/Prayosha Logo.png", title: "" },
     ];
     const prevSponsors = [
-
-        { url: "sponsors/past/apollo-tyres-logo.png", title: "", link:"https://shop.apollotyres.com/"},
-        { url: "sponsors/past/canerabank.png", title: "" , link:"https://canarabank.com/"},
-        { url: "sponsors/past/ceat.png", title: "" , link:"https://www.ceat.com/"},
-        { url: "sponsors/past/GCST.png", title: "" , link:"https://gujcost.gujarat.gov.in/"},
-        { url: "sponsors/past/godrej.png", title: "", link:"https://www.godrej.com/" },
-        { url: "sponsors/past/Indian-Oil-Emblem.png", title: "" , link:"https://iocl.com/"},
-        { url: "sponsors/past/JK-Tyre-logo-PNG-Transparent.png", title: "" , link:"https://www.jktyre.com/"},
-        { url: "sponsors/past/ktm.png", title: "" , link:"https://www.ktm.com/"},
-        { url: "sponsors/past/mahindra.png", title: "" , link:"https://www.mahindra.com/"},
-        { url: "sponsors/past/OYO_Rooms_(logo).png", title: "" , link:"https://www.oyorooms.com/"},
-        { url: "sponsors/past/sopan.png", title: "" , link:"https://sied.in/"},
-        { url: "sponsors/past/tata-motors-logo-3.png", title: "" , link:"https://www.tata.com/home-page"},
-        { url: "sponsors/past/toyota.png", title: "" , link:"https://www.toyotabharat.com/"},
-
-
+        { url: "sponsors/past/apollo-tyres-logo.png", title: "", link: "https://shop.apollotyres.com/" },
+        { url: "sponsors/past/canerabank.png", title: "", link: "https://canarabank.com/" },
+        { url: "sponsors/past/ceat.png", title: "", link: "https://www.ceat.com/" },
+        { url: "sponsors/past/GCST.png", title: "", link: "https://gujcost.gujarat.gov.in/" },
+        { url: "sponsors/past/godrej.png", title: "", link: "https://www.godrej.com/" },
+        { url: "sponsors/past/Indian-Oil-Emblem.png", title: "", link: "https://iocl.com/" },
+        { url: "sponsors/past/JK-Tyre-logo-PNG-Transparent.png", title: "", link: "https://www.jktyre.com/" },
+        { url: "sponsors/past/ktm.png", title: "", link: "https://www.ktm.com/" },
+        { url: "sponsors/past/mahindra.png", title: "", link: "https://www.mahindra.com/" },
+        { url: "sponsors/past/OYO_Rooms_(logo).png", title: "", link: "https://www.oyorooms.com/" },
+        { url: "sponsors/past/sopan.png", title: "", link: "https://sied.in/" },
+        { url: "sponsors/past/tata-motors-logo-3.png", title: "", link: "https://www.tata.com/home-page" },
+        { url: "sponsors/past/toyota.png", title: "", link: "https://www.toyotabharat.com/" },
     ]
     return (
         <div className='sponsor'>
@@ -59,7 +53,7 @@ const Sponsors = () => {
             </div>
             <div className='prev'>
                 <h1>Previous Sponsors</h1>
-               <a href={link}>  <Gallery images={prevSponsors} /></a>
+                <Gallery images={prevSponsors} />
             </div>
             <div className="sponsor-btn">
                 <Connect title="Interested in sponsoring us?" btnName="Contact Us" />
